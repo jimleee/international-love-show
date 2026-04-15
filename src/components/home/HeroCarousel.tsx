@@ -9,9 +9,14 @@ const SLIDES = Array.from({ length: 8 }, (_, i) => ({
 }));
 
 export default function HeroCarousel() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [emblaRef, embla] = useEmblaCarousel({ loop: true });
   const [selected, setSelected] = useState(0);
+
+  // In zh mode, the slide images already contain the Chinese marketing copy —
+  // showing the caption would duplicate and visually clash. Only show caption overlay
+  // for non-zh locales where the baked-in Chinese text doesn't match the UI language.
+  const showCaption = !i18n.language.startsWith("zh");
 
   useEffect(() => {
     if (!embla) return;
@@ -32,12 +37,21 @@ export default function HeroCarousel() {
           {SLIDES.map((s, i) => (
             <div key={i} className="relative flex-[0_0_100%] h-full">
               <img src={s.src} alt="" className="w-full h-full object-cover" />
-              <div className="absolute inset-0 bg-black/30" />
-              <div className="absolute inset-0 flex items-center justify-center px-6">
-                <h2 className="text-white text-2xl md:text-5xl font-bold text-center max-w-4xl drop-shadow-lg">
-                  {t(s.textKey)}
-                </h2>
-              </div>
+              {showCaption && (
+                <>
+                  <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+                  <div className="absolute bottom-16 left-6 md:left-12 max-w-xl">
+                    <div className="inline-block bg-black/40 backdrop-blur-md border-l-2 border-white/80 px-4 py-3">
+                      <div className="text-white/70 text-[10px] md:text-xs tracking-[0.3em] uppercase mb-1">
+                        {String(i + 1).padStart(2, "0")} / {String(SLIDES.length).padStart(2, "0")}
+                      </div>
+                      <div className="text-white text-base md:text-xl font-medium leading-snug">
+                        {t(s.textKey)}
+                      </div>
+                    </div>
+                  </div>
+                </>
+              )}
             </div>
           ))}
         </div>
@@ -45,25 +59,28 @@ export default function HeroCarousel() {
 
       <button
         onClick={() => embla?.scrollPrev()}
-        className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/30 hover:bg-white/60 text-white p-2 rounded-full"
+        className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/50 text-white p-2 rounded-full backdrop-blur-sm transition"
         aria-label="prev"
       >
         <ChevronLeft />
       </button>
       <button
         onClick={() => embla?.scrollNext()}
-        className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/30 hover:bg-white/60 text-white p-2 rounded-full"
+        className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/50 text-white p-2 rounded-full backdrop-blur-sm transition"
         aria-label="next"
       >
         <ChevronRight />
       </button>
 
-      <div className="absolute bottom-6 left-0 right-0 flex justify-center gap-2">
+      {/* Indicators — anchored bottom-right to avoid the image's own baked-in subtitle near bottom-center */}
+      <div className="absolute bottom-5 right-6 md:right-12 flex gap-1.5">
         {SLIDES.map((_, i) => (
           <button
             key={i}
             onClick={() => embla?.scrollTo(i)}
-            className={`w-2.5 h-2.5 rounded-full transition ${selected === i ? "bg-white" : "bg-white/40"}`}
+            className={`h-1 rounded-full transition-all duration-300 ${
+              selected === i ? "w-8 bg-white" : "w-3 bg-white/40 hover:bg-white/70"
+            }`}
             aria-label={`go to slide ${i + 1}`}
           />
         ))}
