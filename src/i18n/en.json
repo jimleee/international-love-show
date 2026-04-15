@@ -1,0 +1,116 @@
+{
+  "brand": "International Love Dating Club",
+  "nav": {
+    "about": "About",
+    "oneOnOne": "One-on-One",
+    "custom": "Custom Matchmaking",
+    "party": "Offline Party",
+    "weddingGallery": "Wedding Gallery",
+    "successCases": "Success Stories"
+  },
+  "footer": {
+    "centers": "Three Service Centers",
+    "losAngeles": "Los Angeles",
+    "sanFrancisco": "San Francisco",
+    "lasVegas": "Las Vegas",
+    "copyright": "© 2026 International Love Dating Club. All rights reserved."
+  },
+  "home": {
+    "carousel": {
+      "slide1": "International Love Dating Club — Premium International Matchmaking",
+      "slide2": "One-on-One Coaching, Guarding Every Step of Your Love",
+      "slide3": "A Large Verified Member Base — Every Profile is Real",
+      "slide4": "Custom Matchmaking, Efficient Pairing, Meet The One",
+      "slide5": "Six Professional Teams, Crafting Your Love Story",
+      "slide6": "Dating Playbooks & Systematic Courses",
+      "slide7": "Offline Singles Parties — Meet Outstanding People In Person",
+      "slide8": "Three Service Centers: LA, SF, Las Vegas"
+    },
+    "manifesto": {
+      "title": "Meet With Heart, Love Without Borders",
+      "subtitle": "Professional dedication for every meaningful connection"
+    },
+    "about": {
+      "title": "About Us",
+      "body": "International Love Dating Club is a premium international matchmaking agency with three service centers in LA, SF, and Las Vegas, dedicated to matching every member with a real, suitable, and lasting partner."
+    },
+    "advantages": {
+      "title": "Our Advantages",
+      "items": [
+        { "title": "Verified & Trustworthy", "desc": "Every member profile is strictly reviewed" },
+        { "title": "Efficient Matching", "desc": "One-on-one coaches pair you precisely" },
+        { "title": "Full-Journey Support", "desc": "Six professional teams have your back" },
+        { "title": "Systematic Courses", "desc": "Complete dating & relationship curriculum" }
+      ]
+    },
+    "sixTeams": {
+      "title": "Six Professional Teams, Full-Journey Support",
+      "items": [
+        { "name": "Matchmaker Team", "desc": "Senior matchmakers, hand-curated pairings" },
+        { "name": "Psychology Team", "desc": "Emotional and psychological coaching" },
+        { "name": "Image Team", "desc": "Style and presentation upgrade" },
+        { "name": "Course Team", "desc": "Systematic training programs" },
+        { "name": "Event Team", "desc": "Offline parties and date planning" },
+        { "name": "Concierge Team", "desc": "Attentive end-to-end service" }
+      ]
+    },
+    "courseSystem": {
+      "title": "Complete Course System",
+      "items": [
+        { "stage": "Self-Discovery", "desc": "Understand yourself and your needs" },
+        { "stage": "Image Upgrade", "desc": "Refine appearance and presence" },
+        { "stage": "Dating Practice", "desc": "High-EQ communication & dating skills" },
+        { "stage": "Relationship Growth", "desc": "Build lasting healthy intimacy" }
+      ]
+    },
+    "teamShowcase": {
+      "title": "Team Highlights"
+    }
+  },
+  "pages": {
+    "about": {
+      "title": "About Us",
+      "intro": "Founded in the U.S. and rooted in the North American Chinese community, International Love Dating Club is a premium international matchmaking agency.",
+      "highlights": [
+        "Three service centers: LA / SF / Las Vegas",
+        "Six professional teams supporting every step",
+        "Real members, strictly reviewed"
+      ]
+    },
+    "oneOnOne": {
+      "title": "One-on-One Service",
+      "intro": "A senior coach walks with you through every introduction, date, and relationship.",
+      "highlights": [
+        "Dedicated coach throughout",
+        "Date debrief & strategy",
+        "Deep emotional coaching"
+      ]
+    },
+    "custom": {
+      "title": "Custom Matchmaking",
+      "intro": "A bespoke matching plan tailored to your preferences, lifestyle, and life stage.",
+      "highlights": [
+        "Deep needs interview",
+        "High-net-worth private matching",
+        "Priority access to scarce profiles"
+      ]
+    },
+    "party": {
+      "title": "Offline Parties",
+      "intro": "Premium offline singles parties — meet outstanding people in person.",
+      "highlights": [
+        "Carefully screened guests",
+        "Refined venues and flow",
+        "Guided icebreaker activities"
+      ]
+    },
+    "weddingGallery": {
+      "title": "Wedding Gallery",
+      "intro": "Witness sweet moments — from first meeting to the wedding aisle."
+    },
+    "successCases": {
+      "title": "Success Stories",
+      "intro": "Real couples, real happiness — their stories are happening now."
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "brand": "International Love dating Club",
+  "nav": {
+    "about": "公司介绍",
+    "oneOnOne": "一对一服务",
+    "custom": "私人订制",
+    "party": "线下 party",
+    "weddingGallery": "婚礼花絮",
+    "successCases": "部分成功案例"
+  },
+  "footer": {
+    "centers": "三大服务中心",
+    "losAngeles": "洛杉矶",
+    "sanFrancisco": "旧金山",
+    "lasVegas": "拉斯维加斯",
+    "copyright": "© 2026 International Love dating Club. 版权所有."
+  },
+  "home": {
+    "carousel": {
+      "slide1": "International Love dating Club 高端国际婚恋服务机构",
+      "slide2": "一对一教练全程陪伴 为你的爱情保驾护航",
+      "slide3": "线下大量会员 每位会员的资料真实可靠",
+      "slide4": "私人定制 高效分配 遇见你一生的挚爱",
+      "slide5": "六大专业团队 为你的爱情全面打造",
+      "slide6": "恋爱秘籍 脱单宝典 完善系统的课程体系",
+      "slide7": "线下单身派对 与优秀的人面对面相识",
+      "slide8": "洛杉矶 旧金山 拉斯维加斯三大服务中心"
+    },
+    "manifesto": {
+      "title": "用心遇见 真爱无界",
+      "subtitle": "为每一段缘分倾注专业与温度"
+    },
+    "about": {
+      "title": "关于我们",
+      "body": "International Love dating Club 是一家专注于高端国际婚恋服务的机构，覆盖洛杉矶、旧金山、拉斯维加斯三大服务中心，致力于为每一位会员匹配真实、合适、长久的伴侣。"
+    },
+    "advantages": {
+      "title": "我们的优势特色",
+      "items": [
+        { "title": "真实可靠", "desc": "每位会员资料严格审核" },
+        { "title": "高效匹配", "desc": "一对一教练精准分配" },
+        { "title": "全程护航", "desc": "六大专业团队保驾护航" },
+        { "title": "完善课程", "desc": "系统的恋爱与婚姻课程体系" }
+      ]
+    },
+    "sixTeams": {
+      "title": "六大专业团队 全程护航",
+      "items": [
+        { "name": "红娘团队", "desc": "资深红娘人工撮合" },
+        { "name": "心理咨询团队", "desc": "情感与心理疏导" },
+        { "name": "形象设计团队", "desc": "形象与造型升级" },
+        { "name": "婚恋课程团队", "desc": "系统课程培训" },
+        { "name": "活动策划团队", "desc": "线下派对与约会策划" },
+        { "name": "客服管家团队", "desc": "全程贴心服务" }
+      ]
+    },
+    "courseSystem": {
+      "title": "完善系统的课程体系",
+      "items": [
+        { "stage": "破冰阶段", "desc": "认识自我与情感需求" },
+        { "stage": "形象提升", "desc": "外形与谈吐的全面打磨" },
+        { "stage": "约会实战", "desc": "高情商沟通与约会技巧" },
+        { "stage": "关系升温", "desc": "建立健康长久的亲密关系" }
+      ]
+    },
+    "teamShowcase": {
+      "title": "团队风采"
+    }
+  },
+  "pages": {
+    "about": {
+      "title": "公司介绍",
+      "intro": "International Love dating Club 创立于美国，扎根北美华人社区，是一家高端国际婚恋服务机构。",
+      "highlights": [
+        "三大服务中心覆盖：洛杉矶 / 旧金山 / 拉斯维加斯",
+        "六大专业团队全程护航",
+        "真实会员，严格审核"
+      ]
+    },
+    "oneOnOne": {
+      "title": "一对一服务",
+      "intro": "资深教练一对一陪伴，为你的每一次相识、每一次约会、每一段关系全程护航。",
+      "highlights": [
+        "专属教练全程跟进",
+        "约会复盘与策略指导",
+        "情感心理深度疏导"
+      ]
+    },
+    "custom": {
+      "title": "私人订制",
+      "intro": "根据你的择偶标准、生活方式与人生阶段，量身定制专属匹配方案。",
+      "highlights": [
+        "需求深度访谈",
+        "高净值私密匹配",
+        "稀缺资源优先对接"
+      ]
+    },
+    "party": {
+      "title": "线下 party",
+      "intro": "高品质线下单身派对，与优秀的人面对面相识。",
+      "highlights": [
+        "严格筛选嘉宾",
+        "精致场地与流程",
+        "破冰互动全程引导"
+      ]
+    },
+    "weddingGallery": {
+      "title": "婚礼花絮",
+      "intro": "见证从相识到走入婚姻殿堂的甜蜜瞬间。"
+    },
+    "successCases": {
+      "title": "部分成功案例",
+      "intro": "真实牵手、真实幸福，他们的故事正在发生。"
+    }
+  }
+}
