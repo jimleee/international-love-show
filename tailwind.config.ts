@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        serif: ['"Cormorant Garamond"', '"Noto Serif SC"', "serif"],
+        display: ['"Cormorant Garamond"', '"Noto Serif SC"', "serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
