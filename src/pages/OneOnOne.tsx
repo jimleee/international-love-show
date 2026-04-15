@@ -66,7 +66,7 @@ export default function OneOnOne() {
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
           <div className="w-full md:w-1/2">
             <div className="rounded-2xl overflow-hidden shadow-lg">
-              <img src="/images/home/consultation.png" alt="" className="w-full h-64 md:h-96 object-cover" />
+              <img src="/images/home/consultation.jpg" alt="" className="w-full h-64 md:h-96 object-cover" />
             </div>
           </div>
           <div className="w-full md:w-1/2 space-y-5">

@@ -17,7 +17,7 @@ export default function About() {
       <PageHero
         title={t("pages.about.title")}
         subtitle={t("pages.about.subtitle")}
-        image="/images/home/team-frontdesk.png"
+        image="/images/home/team-frontdesk.jpg"
       />
 
       <section className="py-16 md:py-24 bg-muted/30">
@@ -25,7 +25,7 @@ export default function About() {
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
             <div className="w-full md:w-1/2">
               <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                <img src="/images/home/team-frontdesk.png" alt="" className="w-full h-64 md:h-96 object-cover hover:scale-[1.02] transition-all duration-500" />
+                <img src="/images/home/team-frontdesk.jpg" alt="" className="w-full h-64 md:h-96 object-cover hover:scale-[1.02] transition-all duration-500" />
                 <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg px-4 py-2 flex items-center gap-2">
                   <Heart className="w-5 h-5 text-primary fill-primary" />
                   <span className="text-sm font-semibold">{t("brand")}</span>
@@ -58,7 +58,7 @@ export default function About() {
           <div className="flex flex-col md:flex-row-reverse items-center gap-8 md:gap-12">
             <div className="w-full md:w-1/2">
               <div className="rounded-2xl overflow-hidden shadow-lg">
-                <img src="/images/home/consultants.png" alt="" className="w-full h-64 md:h-96 object-cover hover:scale-[1.02] transition-all duration-500" />
+                <img src="/images/home/consultants.jpg" alt="" className="w-full h-64 md:h-96 object-cover hover:scale-[1.02] transition-all duration-500" />
               </div>
             </div>
             <div className="w-full md:w-1/2 space-y-5">
