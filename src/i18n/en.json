@@ -70,47 +70,103 @@
   "pages": {
     "about": {
       "title": "About Us",
-      "intro": "Founded in the U.S. and rooted in the North American Chinese community, International Love Dating Club is a premium international matchmaking agency.",
-      "highlights": [
-        "Three service centers: LA / SF / Las Vegas",
-        "Six professional teams supporting every step",
-        "Real members, strictly reviewed"
-      ]
+      "subtitle": "About International Love Dating Club",
+      "story1Title": "A Premium International Matchmaking Agency",
+      "story1Body": "Founded in 2019 and headquartered in Los Angeles, International Love Dating Club operates three service centers in Los Angeles, San Francisco, and Las Vegas. As a premium international matchmaking agency, we have successfully served over 30,000+ members, helping them find true love with quality partners from the United States, United Kingdom, France, Canada, Australia and beyond.",
+      "story2Title": "Dedicated Matchmaking Consultants",
+      "story2Body": "Every member is paired with a dedicated consultant for in-depth one-on-one communication. Our six professional teams cover member screening, precise matching, emotional coaching, image transformation, marriage facilitation, and family management — accompanying you throughout your journey.",
+      "stat1Value": "30,000+",
+      "stat1Label": "Members Served",
+      "stat2Value": "2019",
+      "stat2Label": "Founded In",
+      "stat3Value": "3",
+      "stat3Label": "Service Centers",
+      "citiesTitle": "Three Service Centers"
     },
     "oneOnOne": {
       "title": "One-on-One Service",
-      "intro": "A senior coach walks with you through every introduction, date, and relationship.",
-      "highlights": [
-        "Dedicated coach throughout",
-        "Date debrief & strategy",
-        "Deep emotional coaching"
-      ]
+      "subtitle": "Senior Coach, Full-Journey Support",
+      "intro": "From sign-up to first hand-hold, every step is accompanied by a dedicated coach — guarding every introduction, every date, every relationship.",
+      "processTitle": "Service Process",
+      "processSubtitle": "Six steps to begin your happiness journey",
+      "steps": [
+        { "title": "Register & Complete Profile", "desc": "Sign up quickly, upload photos, and fill out detailed profile and partner preferences." },
+        { "title": "Profile Review & Verification", "desc": "Our team verifies your identity and credentials to ensure authentic members." },
+        { "title": "One-on-One Consultation", "desc": "A dedicated consultant reaches out to deeply understand your values and preferences." },
+        { "title": "Curated Match Recommendations", "desc": "Based on compatibility and preferences, we recommend carefully selected matches." },
+        { "title": "Online Communication", "desc": "Start conversations with matches on our secure messaging platform." },
+        { "title": "Offline Meetings & Bonding", "desc": "We arrange in-person meetings to begin your real love story." }
+      ],
+      "coachTitle": "A Dedicated Consultant Who Walks With You",
+      "coachBody": "Every member is paired with a dedicated consultant who deeply understands your values, lifestyle, and emotional needs. We don't just make introductions — we walk with you the entire way."
     },
     "custom": {
       "title": "Custom Matchmaking",
-      "intro": "A bespoke matching plan tailored to your preferences, lifestyle, and life stage.",
-      "highlights": [
-        "Deep needs interview",
-        "High-net-worth private matching",
-        "Priority access to scarce profiles"
-      ]
+      "subtitle": "Bespoke Plans For A Unique You",
+      "intro": "A matching plan tailored to your preferences, lifestyle, and life stage. Three tiers to meet every need.",
+      "tiersTitle": "Three Bespoke Tiers",
+      "tiers": [
+        {
+          "name": "Classic",
+          "tagline": "Curated matches, steady start",
+          "features": ["1 dedicated matchmaker", "6 curated matches / month", "Basic emotional coaching", "Priority event access", "6-month term"]
+        },
+        {
+          "name": "Signature",
+          "tagline": "Full-spectrum support, deep matching",
+          "featured": true,
+          "features": ["3-person matchmaker team", "12 curated matches / month", "Advanced emotional coaching", "2 image design sessions", "Full dating curriculum", "12-month term"]
+        },
+        {
+          "name": "Diamond",
+          "tagline": "High-net-worth circle, scarce access",
+          "features": ["Senior director attends personally", "Unlimited premium matches", "Cross-border targeted sourcing", "Year-round image management", "One-on-one psychotherapy", "No term limit"]
+        }
+      ],
+      "whyTitle": "Why Go Custom",
+      "whyBody": "High-net-worth individuals, overseas Chinese, and accomplished singles have more specific criteria and less time. Custom matchmaking is led by a senior director in person, with precise in-circle sourcing — so every meeting is worth your time."
     },
     "party": {
       "title": "Offline Parties",
-      "intro": "Premium offline singles parties — meet outstanding people in person.",
+      "subtitle": "Meet Outstanding People In Person",
+      "intro": "Carefully screened guests, refined venues, and professional icebreaker hosting — our offline singles parties let you meet the most compatible people in the most comfortable setting.",
+      "photosTitle": "Event Highlights",
+      "photosSubtitle": "Join our party community and meet someone special in real life",
       "highlights": [
-        "Carefully screened guests",
-        "Refined venues and flow",
-        "Guided icebreaker activities"
+        { "title": "Carefully Screened Guests", "desc": "Every attendee passes profile and presentation review" },
+        { "title": "Refined Venues", "desc": "Private luxury hotels, art galleries, and estates" },
+        { "title": "Icebreaker Hosting", "desc": "Professional hosts guide natural conversations" },
+        { "title": "Themed Experiences", "desc": "Afternoon tea, yacht parties, outdoor hikes, and more" }
       ]
     },
     "weddingGallery": {
       "title": "Wedding Gallery",
-      "intro": "Witness sweet moments — from first meeting to the wedding aisle."
+      "subtitle": "Sweet Moments From First Meeting To Wedding",
+      "intro": "Every wedding is happiness we witness together; every moment is the best proof of love.",
+      "quote": "May your love, like these frozen moments, never fade."
     },
     "successCases": {
       "title": "Success Stories",
-      "intro": "Real couples, real happiness — their stories are happening now."
+      "subtitle": "Real Couples, Real Happiness",
+      "intro": "Real stories of couples who found love through International Love.",
+      "featured": "Featured",
+      "cases": [
+        { "names": "Hong & Mr. Felder", "title": "CEO & Medical Scientist", "location": "Phoenix, Arizona", "story": "I came to the US in March 2022. Thanks to the professional team at International Love, I met my husband — a double postdoc from Stanford and Harvard. We got married in August that same year and now live in Phoenix, Arizona." },
+        { "names": "Amy & Jack", "title": "Teacher & Professor", "location": "Phoenix, Arizona", "story": "With the matchmaker's help I met Jack, a university professor now living in Arizona. He flies home every week to be with me and our family." },
+        { "names": "Feifei & David", "title": "Beauty Influencer & Lawyer", "location": "Manhattan, NYC", "story": "Through International Love I met David, a US attorney. We registered our marriage in China — real love is not limited by distance." },
+        { "names": "Hotel Owner & Coach", "title": "Hotel Owner & Training Academy Owner", "location": "Orange County, CA", "story": "I run a hotel back home. In 2021 I met my wife, who runs a coaching academy. We share the same lifestyle and love of fine wine. Engaged at 24, married the next year, now living a peaceful family life together." },
+        { "names": "Wendy & Lawyer", "title": "Sister-in-law & Lawyer", "location": "Oregon", "story": "I'm Wendy, from Shanghai. My sister-in-law introduced International Love. I got married this year and have received my green card." },
+        { "names": "Susan & NYC Official", "title": "Sister-in-law & NYC Official", "location": "Oregon", "story": "I'm Susan, 63. Wendy's sister-in-law. I married a senior NYC official this year and received my green card — every day is beautiful." },
+        { "names": "Rong & Meikai", "title": "A New Chapter At 61", "location": "Los Angeles, CA", "story": "I'm Rong, 61. With the help of International Love I met my husband, we married this year, and I now live happily in the US with my green card." },
+        { "names": "Vera & Dental Consultant", "title": "Business Owner & Dental Consultant", "location": "Las Vegas", "story": "I'm Vera, 45, with a daughter. International Love introduced me to my 54-year-old husband, a dental consultant. A simple, beautiful wedding and a warm family life." },
+        { "names": "Canadian Nurse & Home Goods", "title": "Nurse & Building Supply Owner", "location": "Toronto, Canada", "story": "I was a nurse in China. Through International Love I met my husband, who owns a home building supply store. We married at Christmas and honeymooned in Canada." },
+        { "names": "Jie & University Teacher", "title": "Singaporean Chinese & Professor", "location": "Thailand & China", "story": "I'm Jie, a Singaporean-Chinese media professional. With my sister's help I met my husband, a university professor. We met in Thailand and married in China last year, now awaiting a Canadian visa." },
+        { "names": "Helen & Engineer", "title": "Tutor & Engineer", "location": "Calgary, Canada", "story": "I'm Helen, a former Chinese teacher. Through International Love I met my engineer husband. We now live together in Canada." },
+        { "names": "Vicky & Realtor", "title": "Realtor & Realty Firm Owner", "location": "Texas", "story": "I'm Vicky from Hong Kong. Introduced by matchmaker Anna, I met my husband, who owns his own realty firm. We are married and living in Texas." },
+        { "names": "Min & Air Force Doctor", "title": "Doctor & Air Force Medic", "location": "Washington", "story": "I'm Min, a doctor. Through International Love I met my husband, a military medic. After 12 years single, I finally found my life companion." },
+        { "names": "Sisi & Doctor", "title": "Realtor & Doctor", "location": "Washington State", "story": "Sisi met her doctor husband in the US Midwest, now happily married in Washington. Her daughter also joined her and is now in college." },
+        { "names": "Nina & Teacher", "title": "Dance Teacher & Teacher", "location": "Palos Verdes, CA", "story": "I'm Nina, a former dance teacher from Beijing. Through International Love I met my teacher husband. Life gets better every day — we now live on the PV Hills." }
+      ]
     }
   }
 }
