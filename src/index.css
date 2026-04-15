@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 340 10% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 340 10% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 340 10% 10%;
+
+    --primary: 280 25% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 280 35% 50%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 330 20% 96%;
+    --muted-foreground: 340 10% 50%;
+
+    --accent: 320 40% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    --border: 330 15% 90%;
+    --input: 330 15% 90%;
+    --ring: 280 25% 45%;
+
+    --radius: 0.75rem;
+    
+    /* Romantic gradients */
+    --gradient-romantic: linear-gradient(135deg, hsl(280 25% 45%) 0%, hsl(280 35% 50%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(280 20% 40% / 0.95) 0%, hsl(280 35% 45% / 0.95) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(280 20% 98%) 0%, hsl(280 20% 98%) 100%);
+    
+    /* Shadows */
+    --shadow-romantic: 0 10px 40px -10px hsl(280 25% 45% / 0.2);
+    --shadow-elevated: 0 20px 60px -15px hsl(280 35% 50% / 0.3);
+    
+    /* Animations */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 340 20% 8%;
+    --foreground: 330 10% 98%;
+
+    --card: 340 20% 10%;
+    --card-foreground: 330 10% 98%;
+
+    --popover: 340 20% 10%;
+    --popover-foreground: 330 10% 98%;
+
+    --primary: 280 25% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 280 35% 55%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 340 20% 15%;
+    --muted-foreground: 330 10% 65%;
+
+    --accent: 320 40% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 142 70% 45%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 90% 60%;
+    --warning-foreground: 0 0% 100%;
+
+    --border: 340 20% 20%;
+    --input: 340 20% 20%;
+    --ring: 280 25% 50%;
+    
+    --gradient-romantic: linear-gradient(135deg, hsl(280 25% 50%) 0%, hsl(280 35% 55%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(280 20% 45% / 0.95) 0%, hsl(280 35% 50% / 0.95) 100%);
+    --shadow-romantic: 0 10px 40px -10px hsl(280 25% 50% / 0.3);
+    --shadow-elevated: 0 20px 60px -15px hsl(280 35% 55% / 0.4);
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* 未读消息动画效果 */
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes bounce-subtle {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.animate-bounce-subtle {
+  animation: bounce-subtle 1.5s ease-in-out infinite;
+}
