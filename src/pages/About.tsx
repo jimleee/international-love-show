@@ -1,3 +1,4 @@
+import SimplePage from "@/components/SimplePage";
 export default function About() {
-  return <div className="container mx-auto py-12">About</div>;
+  return <SimplePage i18nNamespace="pages.about" />;
 }

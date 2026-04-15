@@ -1,3 +1,4 @@
+import SimplePage from "@/components/SimplePage";
 export default function Party() {
-  return <div className="container mx-auto py-12">Party</div>;
+  return <SimplePage i18nNamespace="pages.party" heroImage="/images/carousel/slide-7.png" />;
 }

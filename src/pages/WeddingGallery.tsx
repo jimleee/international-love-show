@@ -1,3 +1,4 @@
+import SimplePage from "@/components/SimplePage";
 export default function WeddingGallery() {
-  return <div className="container mx-auto py-12">WeddingGallery</div>;
+  return <SimplePage i18nNamespace="pages.weddingGallery" heroImage="/images/carousel/slide-3.png" />;
 }

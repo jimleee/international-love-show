@@ -1,3 +1,4 @@
+import SimplePage from "@/components/SimplePage";
 export default function Custom() {
-  return <div className="container mx-auto py-12">Custom</div>;
+  return <SimplePage i18nNamespace="pages.custom" heroImage="/images/carousel/slide-4.png" />;
 }

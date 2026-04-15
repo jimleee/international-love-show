@@ -1,3 +1,4 @@
+import SimplePage from "@/components/SimplePage";
 export default function SuccessCases() {
-  return <div className="container mx-auto py-12">SuccessCases</div>;
+  return <SimplePage i18nNamespace="pages.successCases" heroImage="/images/carousel/slide-5.png" />;
 }
