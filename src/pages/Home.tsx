@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 import HeroCarousel from "@/components/home/HeroCarousel";
+import NavMenuSection from "@/components/home/NavMenuSection";
 import ManifestoSection from "@/components/home/ManifestoSection";
 import AboutSection from "@/components/home/AboutSection";
 import AdvantagesSection from "@/components/home/AdvantagesSection";
@@ -17,6 +18,7 @@ export default function Home() {
         <meta name="description" content={t("home.manifesto.subtitle") as string} />
       </Helmet>
       <HeroCarousel />
+      <NavMenuSection />
       <ManifestoSection />
       <AboutSection />
       <AdvantagesSection />
