@@ -6,9 +6,9 @@ const ITEMS = [
   { to: "/about", key: "nav.about", Icon: Building2, image: "/images/carousel/slide-1.png" },
   { to: "/one-on-one", key: "nav.oneOnOne", Icon: UserRound, image: "/images/carousel/slide-2.png" },
   { to: "/custom", key: "nav.custom", Icon: Sparkles, image: "/images/carousel/slide-4.png" },
-  { to: "/party", key: "nav.party", Icon: PartyPopper, image: "/images/carousel/slide-7.png" },
-  { to: "/wedding-gallery", key: "nav.weddingGallery", Icon: Heart, image: "/images/carousel/slide-3.png" },
-  { to: "/success-cases", key: "nav.successCases", Icon: Trophy, image: "/images/carousel/slide-5.png" },
+  { to: "/party", key: "nav.party", Icon: PartyPopper, image: "/images/party/5.jpg" },
+  { to: "/wedding-gallery", key: "nav.weddingGallery", Icon: Heart, image: "/images/stories/3.jpg" },
+  { to: "/success-cases", key: "nav.successCases", Icon: Trophy, image: "/images/stories/7.jpg" },
 ];
 
 export default function NavMenuSection() {
