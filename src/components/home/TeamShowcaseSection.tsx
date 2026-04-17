@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 
-const PHOTOS = Array.from({ length: 8 }, (_, i) => `/images/carousel/slide-${i + 1}.png`);
+const PHOTOS = Array.from({ length: 8 }, (_, i) => `/images/carousel/slide-${i + 1}.jpg`);
 
 export default function TeamShowcaseSection() {
   const { t } = useTranslation();

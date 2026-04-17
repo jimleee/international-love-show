@@ -19,7 +19,7 @@ export default function Custom() {
       <PageHero
         title={t("pages.custom.title")}
         subtitle={t("pages.custom.subtitle")}
-        image="/images/carousel/slide-4.png"
+        image="/images/carousel/slide-4.jpg"
       />
 
       <section className="container mx-auto px-4 py-16 max-w-3xl text-center">

@@ -5,7 +5,7 @@ export default function AboutSection() {
   return (
     <section className="container mx-auto px-4 py-20 grid md:grid-cols-2 gap-10 items-center">
       <img
-        src="/images/carousel/slide-1.png"
+        src="/images/carousel/slide-1.jpg"
         alt=""
         className="rounded-2xl shadow-lg w-full h-80 object-cover"
       />
