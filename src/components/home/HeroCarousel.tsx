@@ -1,22 +1,14 @@
 import { useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
-import { useTranslation } from "react-i18next";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const SLIDES = Array.from({ length: 8 }, (_, i) => ({
-  src: `/images/carousel/slide-${i + 1}.png`,
-  textKey: `home.carousel.slide${i + 1}`,
+  src: `/images/carousel/slide-${i + 1}.jpg`,
 }));
 
 export default function HeroCarousel() {
-  const { t, i18n } = useTranslation();
   const [emblaRef, embla] = useEmblaCarousel({ loop: true });
   const [selected, setSelected] = useState(0);
-
-  // In zh mode, the slide images already contain the Chinese marketing copy —
-  // showing the caption would duplicate and visually clash. Only show caption overlay
-  // for non-zh locales where the baked-in Chinese text doesn't match the UI language.
-  const showCaption = !i18n.language.startsWith("zh");
 
   useEffect(() => {
     if (!embla) return;
@@ -31,59 +23,60 @@ export default function HeroCarousel() {
   }, [embla]);
 
   return (
-    <section className="relative w-full overflow-hidden" style={{ height: "80vh", minHeight: 480 }}>
+    <section className="relative w-full overflow-hidden h-screen">
       <div ref={emblaRef} className="h-full">
         <div className="flex h-full">
           {SLIDES.map((s, i) => (
             <div key={i} className="relative flex-[0_0_100%] h-full">
               <img src={s.src} alt="" className="w-full h-full object-cover" />
-              {showCaption && (
-                <>
-                  <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
-                  <div className="absolute bottom-16 left-6 md:left-12 max-w-xl">
-                    <div className="inline-block bg-black/40 backdrop-blur-md border-l-2 border-white/80 px-4 py-3">
-                      <div className="text-white/70 text-[10px] md:text-xs tracking-[0.3em] uppercase mb-1">
-                        {String(i + 1).padStart(2, "0")} / {String(SLIDES.length).padStart(2, "0")}
-                      </div>
-                      <div className="text-white text-base md:text-xl font-medium leading-snug">
-                        {t(s.textKey)}
-                      </div>
-                    </div>
-                  </div>
-                </>
-              )}
             </div>
           ))}
         </div>
       </div>
 
+      {/* Minimal ghost arrows */}
       <button
         onClick={() => embla?.scrollPrev()}
-        className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/50 text-white p-2 rounded-full backdrop-blur-sm transition"
+        className="absolute left-3 md:left-6 top-1/2 -translate-y-1/2 text-white/30 hover:text-white/80 transition-colors duration-300"
         aria-label="prev"
       >
-        <ChevronLeft />
+        <ChevronLeft size={32} strokeWidth={1} />
       </button>
       <button
         onClick={() => embla?.scrollNext()}
-        className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/50 text-white p-2 rounded-full backdrop-blur-sm transition"
+        className="absolute right-3 md:right-6 top-1/2 -translate-y-1/2 text-white/30 hover:text-white/80 transition-colors duration-300"
         aria-label="next"
       >
-        <ChevronRight />
+        <ChevronRight size={32} strokeWidth={1} />
       </button>
 
-      {/* Indicators — anchored bottom-right to avoid the image's own baked-in subtitle near bottom-center */}
-      <div className="absolute bottom-5 right-6 md:right-12 flex gap-1.5">
-        {SLIDES.map((_, i) => (
-          <button
-            key={i}
-            onClick={() => embla?.scrollTo(i)}
-            className={`h-1 rounded-full transition-all duration-300 ${
-              selected === i ? "w-8 bg-white" : "w-3 bg-white/40 hover:bg-white/70"
-            }`}
-            aria-label={`go to slide ${i + 1}`}
-          />
-        ))}
+      {/* Scroll-down indicator + dots */}
+      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3">
+        {/* Animated scroll-down arrow */}
+        <button
+          onClick={() => window.scrollTo({ top: window.innerHeight, behavior: "smooth" })}
+          className="text-white/60 hover:text-white transition-colors animate-bounce"
+          aria-label="scroll down"
+        >
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </button>
+        {/* Indicator dots */}
+        <div className="flex gap-2">
+          {SLIDES.map((_, i) => (
+            <button
+              key={i}
+              onClick={() => embla?.scrollTo(i)}
+              className={`rounded-full transition-all duration-500 ${
+                selected === i
+                  ? "w-7 h-1.5 bg-white/90"
+                  : "w-1.5 h-1.5 bg-white/30 hover:bg-white/60"
+              }`}
+              aria-label={`go to slide ${i + 1}`}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );
