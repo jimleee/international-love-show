@@ -71,17 +71,39 @@
     "about": {
       "title": "About Us",
       "subtitle": "About International Love Dating Club",
-      "story1Title": "A Premium International Matchmaking Agency",
-      "story1Body": "Founded in 2019 and headquartered in Los Angeles, International Love Dating Club operates three service centers in Los Angeles, San Francisco, and Las Vegas. As a premium international matchmaking agency, we have successfully served over 30,000+ members, helping them find true love with quality partners from the United States, United Kingdom, France, Canada, Australia and beyond.",
-      "story2Title": "Dedicated Matchmaking Consultants",
-      "story2Body": "Every member is paired with a dedicated consultant for in-depth one-on-one communication. Our six professional teams cover member screening, precise matching, emotional coaching, image transformation, marriage facilitation, and family management — accompanying you throughout your journey.",
+      "story1Title": "A Premier International Matchmaking Organization",
+      "story1Body": "Founded in 2019 and headquartered in Los Angeles, International Love Dating Club is a professional organization focused on high-end international matchmaking and women's personal growth. We operate service centers in Los Angeles, San Francisco, and Las Vegas, with branches and over 100 partner agencies across China. We've helped over 30,000 women from all walks of life build sincere, lasting relationships with quality men from the US, UK, France, Canada, and Australia. Founded by a team of women with cross-cultural marriage experience and emotional expertise, we're here to walk beside you — through confusion and courage, from longing to lasting love.",
       "stat1Value": "30,000+",
       "stat1Label": "Members Served",
       "stat2Value": "2019",
-      "stat2Label": "Founded In",
+      "stat2Label": "Founded",
       "stat3Value": "3",
       "stat3Label": "Service Centers",
-      "citiesTitle": "Three Service Centers"
+      "citiesTitle": "Three Service Centers",
+      "missionTitle": "Our Mission",
+      "missionBody": "To inspire with life, to heal with light. To awaken lost hearts with kindness, to guide broken spirits with faith. We empower every woman with the strength and wisdom to grow, to love, and to claim her own happiness.",
+      "visionTitle": "Our Vision",
+      "visionBody": "To lead women toward growth and global love. To offer every woman a personalized path to happiness. So she may become her best self — and meet the right person to build a life with.",
+      "valuesTitle": "Our Values",
+      "values": [
+        { "name": "Authenticity", "nameEn": "真实", "desc": "Every love story matters" },
+        { "name": "Growth", "nameEn": "成长", "desc": "Change is power, and you deserve it" },
+        { "name": "Happiness", "nameEn": "幸福", "desc": "A destination and a skill" },
+        { "name": "Companionship", "nameEn": "陪伴", "desc": "We don't just match — we walk with you" }
+      ],
+      "foundersTitle": "Our Founders",
+      "founders": [
+        {
+          "name": "Jessie",
+          "image": "/images/founders/jessie.png",
+          "body": "Let us walk toward the light, for there is a remarkable woman behind it: Ms. Jessie Feng, our beloved founder of International Love Dating Club. Through years of dedicated learning in online emotional communication, she found her own soulmate and now lives in Los Angeles, California. Since January 2020, she has appeared as an emotional-life livestream host and, over four years and more than a thousand sessions, has answered relationship questions from tens of millions of women. With deep research into online relationship selection, communication, and long-term partnership, she has guided countless women toward new lives across the globe. To better support women who need help, she launched International Love Dating Club — wishing to be a light that illuminates their path, sharing happiness and passing on kindness, faith, warmth, and love."
+        },
+        {
+          "name": "Anna",
+          "image": "/images/founders/anna.png",
+          "body": "Among countless faces, there is one woman of singular charm — Ms. Anna Jiang, co-founder of International Love Dating Club. In 2017, through diligent study of online dating skills, she attracted a wonderful gentleman from the United States. In 2018, they married in Los Angeles and began a beautiful life together. Gentle, kind, and grounded, Anna combines high emotional intelligence with deep wisdom. In 2019 she created our distinctive one-on-one high-end private-bespoke service. Her work is rooted in love and gratitude — helping more women find their own happiness, guiding them to understand Western culture and emotional needs of partners, and attracting the soulmates they have been hoping for."
+        }
+      ]
     },
     "oneOnOne": {
       "title": "One-on-One Service",
