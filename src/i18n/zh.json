@@ -56,12 +56,7 @@
     },
     "courseSystem": {
       "title": "完善系统的课程体系",
-      "items": [
-        { "stage": "破冰阶段", "desc": "认识自我与情感需求", "image": "/images/courses/course-1.jpg" },
-        { "stage": "形象提升", "desc": "外形与谈吐的全面打磨", "image": "/images/courses/course-2.jpg" },
-        { "stage": "约会实战", "desc": "高情商沟通与约会技巧", "image": "/images/courses/course-3.jpg" },
-        { "stage": "关系升温", "desc": "建立健康长久的亲密关系", "image": "/images/courses/course-4.png" }
-      ]
+      "subtitle": "六大主题课程 系统化打磨成长每一面"
     },
     "teamShowcase": {
       "title": "团队风采"
