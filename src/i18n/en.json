@@ -190,27 +190,6 @@
       "title": "Custom Matchmaking",
       "subtitle": "Bespoke Plans For A Unique You",
       "intro": "A matching plan tailored to your preferences, lifestyle, and life stage. Three tiers to meet every need.",
-      "tiersTitle": "Three Bespoke Tiers",
-      "tiers": [
-        {
-          "name": "Classic",
-          "tagline": "Curated matches, steady start",
-          "features": ["1 dedicated matchmaker", "6 curated matches / month", "Basic emotional coaching", "Priority event access", "6-month term"]
-        },
-        {
-          "name": "Signature",
-          "tagline": "Full-spectrum support, deep matching",
-          "featured": true,
-          "features": ["3-person matchmaker team", "12 curated matches / month", "Advanced emotional coaching", "2 image design sessions", "Full dating curriculum", "12-month term"]
-        },
-        {
-          "name": "Diamond",
-          "tagline": "High-net-worth circle, scarce access",
-          "features": ["Senior director attends personally", "Unlimited premium matches", "Cross-border targeted sourcing", "Year-round image management", "One-on-one psychotherapy", "No term limit"]
-        }
-      ],
-      "whyTitle": "Why Go Custom",
-      "whyBody": "High-net-worth individuals, overseas Chinese, and accomplished singles have more specific criteria and less time. Custom matchmaking is led by a senior director in person, with precise in-circle sourcing — so every meeting is worth your time.",
       "basicTitle": "Core Packages",
       "basicTiers": [
         {
