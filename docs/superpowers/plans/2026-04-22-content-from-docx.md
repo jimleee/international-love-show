@@ -175,7 +175,7 @@ git commit -m "feat(assets): extract docx media + compress (founders/coaches/cou
   { "name": "Emotional Support Team", "nameEn": "情感陪跑团队", "desc": "Full-journey companionship through every milestone of your relationship." },
   { "name": "Image & Confidence Team", "nameEn": "形象蜕变团队", "desc": "From wardrobe to presence, from etiquette to expression — your confidence, fully elevated." },
   { "name": "Relationship Progression Team", "nameEn": "婚姻推进团队", "desc": "From meeting and engagement to visa and marriage registration — we help your bond translate into real life." },
-  { "name": "Marriage Enrichment Team", "nameEn": "Marriage Enrichment Team", "desc": "Marriage is not the finish line but a new beginning — we walk with you into real intimate life." }
+  { "name": "Marriage Enrichment Team", "nameEn": "婚姻经营团队", "desc": "Marriage is not the finish line but a new beginning — we walk with you into real intimate life." }
 ]
 ```
 
