@@ -210,7 +210,92 @@
         }
       ],
       "whyTitle": "Why Go Custom",
-      "whyBody": "High-net-worth individuals, overseas Chinese, and accomplished singles have more specific criteria and less time. Custom matchmaking is led by a senior director in person, with precise in-circle sourcing — so every meeting is worth your time."
+      "whyBody": "High-net-worth individuals, overseas Chinese, and accomplished singles have more specific criteria and less time. Custom matchmaking is led by a senior director in person, with precise in-circle sourcing — so every meeting is worth your time.",
+      "basicTitle": "Core Packages",
+      "basicTiers": [
+        {
+          "name": "Plan B",
+          "duration": "12-month service period",
+          "features": [
+            "Coaching team helps you register on three dating platforms",
+            "2 months of coaching included",
+            "12 months of live coaching classes",
+            "100 recorded lessons on chatting techniques"
+          ]
+        },
+        {
+          "name": "Plan C",
+          "duration": "6-month service period",
+          "features": [
+            "Curated 10 candidates (assets up to 500K USD)",
+            "2 months of relationship coaching included",
+            "6 months of live coaching classes",
+            "30 recorded lessons on women's growth"
+          ]
+        },
+        {
+          "name": "Plan D",
+          "duration": "6-month service period",
+          "features": [
+            "Curated 6 candidates (assets 500K–1M USD)",
+            "3 months of relationship coaching included",
+            "12 months of live coaching classes",
+            "100 recorded lessons on chatting techniques"
+          ]
+        }
+      ],
+      "premiumTitle": "High-End Bespoke",
+      "premiumSubtitle": "Targeted matching for high-net-worth and elite circles",
+      "premiumTiers": [
+        {
+          "name": "Platinum",
+          "duration": "24-month service period",
+          "asset": "Candidate assets: $500K–$1M",
+          "scope": "Engineers, school teachers, sales professionals, medical caregivers, mid-level managers",
+          "features": [
+            "Coaching team curates 100 candidates",
+            "6 months of relationship coaching + 6 months of dedicated companionship",
+            "12 months of live coaching classes",
+            "200 recorded lessons"
+          ]
+        },
+        {
+          "name": "Diamond",
+          "duration": "24-month service period",
+          "asset": "Candidate assets: $1M–$1.5M",
+          "scope": "Corporate executives, business owners, university professors, CEOs",
+          "features": [
+            "Coaching team curates 100 candidates",
+            "6 months of relationship coaching + 6 months of dedicated companionship",
+            "12 months of live coaching classes",
+            "200 recorded lessons"
+          ]
+        },
+        {
+          "name": "Supreme",
+          "duration": "24-month service period",
+          "asset": "Candidate assets: $1.5M–$2.5M",
+          "scope": "Business owners, doctors, lawyers, scientists, senior tech talent",
+          "features": [
+            "Coaching team curates 100 candidates",
+            "6 months of relationship coaching + 6 months of dedicated companionship",
+            "12 months of live coaching classes",
+            "200 recorded lessons"
+          ]
+        },
+        {
+          "name": "Super",
+          "duration": "24-month service period",
+          "asset": "Candidate assets: $2.5M–$5M",
+          "scope": "Owners of franchise enterprises, surgeons, anesthesiologists, senior counsels, scientists with patents, Fortune-500 CEOs, senior tech executives",
+          "features": [
+            "Coaching team curates 100 candidates",
+            "6 months of relationship coaching + 6 months of dedicated companionship",
+            "12 months of live coaching classes",
+            "300 recorded lessons"
+          ]
+        }
+      ]
     },
     "party": {
       "title": "Offline Parties",
