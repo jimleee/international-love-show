@@ -297,25 +297,209 @@
     },
     "successCases": {
       "title": "Success Stories",
-      "subtitle": "Real Couples, Real Happiness",
-      "intro": "Real stories of couples who found love through International Love.",
-      "featured": "Featured",
+      "subtitle": "Real connections, real happiness",
+      "intro": "True stories of women who found love through International Love Dating Club.",
       "cases": [
-        { "names": "Hong & Mr. Felder", "title": "CEO & Medical Scientist", "location": "Phoenix, Arizona", "story": "I came to the US in March 2022. Thanks to the professional team at International Love, I met my husband — a double postdoc from Stanford and Harvard. We got married in August that same year and now live in Phoenix, Arizona." },
-        { "names": "Amy & Jack", "title": "Teacher & Professor", "location": "Phoenix, Arizona", "story": "With the matchmaker's help I met Jack, a university professor now living in Arizona. He flies home every week to be with me and our family." },
-        { "names": "Feifei & David", "title": "Beauty Influencer & Lawyer", "location": "Manhattan, NYC", "story": "Through International Love I met David, a US attorney. We registered our marriage in China — real love is not limited by distance." },
-        { "names": "Hotel Owner & Coach", "title": "Hotel Owner & Training Academy Owner", "location": "Orange County, CA", "story": "I run a hotel back home. In 2021 I met my wife, who runs a coaching academy. We share the same lifestyle and love of fine wine. Engaged at 24, married the next year, now living a peaceful family life together." },
-        { "names": "Wendy & Lawyer", "title": "Sister-in-law & Lawyer", "location": "Oregon", "story": "I'm Wendy, from Shanghai. My sister-in-law introduced International Love. I got married this year and have received my green card." },
-        { "names": "Susan & NYC Official", "title": "Sister-in-law & NYC Official", "location": "Oregon", "story": "I'm Susan, 63. Wendy's sister-in-law. I married a senior NYC official this year and received my green card — every day is beautiful." },
-        { "names": "Rong & Meikai", "title": "A New Chapter At 61", "location": "Los Angeles, CA", "story": "I'm Rong, 61. With the help of International Love I met my husband, we married this year, and I now live happily in the US with my green card." },
-        { "names": "Vera & Dental Consultant", "title": "Business Owner & Dental Consultant", "location": "Las Vegas", "story": "I'm Vera, 45, with a daughter. International Love introduced me to my 54-year-old husband, a dental consultant. A simple, beautiful wedding and a warm family life." },
-        { "names": "Canadian Nurse & Home Goods", "title": "Nurse & Building Supply Owner", "location": "Toronto, Canada", "story": "I was a nurse in China. Through International Love I met my husband, who owns a home building supply store. We married at Christmas and honeymooned in Canada." },
-        { "names": "Jie & University Teacher", "title": "Singaporean Chinese & Professor", "location": "Thailand & China", "story": "I'm Jie, a Singaporean-Chinese media professional. With my sister's help I met my husband, a university professor. We met in Thailand and married in China last year, now awaiting a Canadian visa." },
-        { "names": "Helen & Engineer", "title": "Tutor & Engineer", "location": "Calgary, Canada", "story": "I'm Helen, a former Chinese teacher. Through International Love I met my engineer husband. We now live together in Canada." },
-        { "names": "Vicky & Realtor", "title": "Realtor & Realty Firm Owner", "location": "Texas", "story": "I'm Vicky from Hong Kong. Introduced by matchmaker Anna, I met my husband, who owns his own realty firm. We are married and living in Texas." },
-        { "names": "Min & Air Force Doctor", "title": "Doctor & Air Force Medic", "location": "Washington", "story": "I'm Min, a doctor. Through International Love I met my husband, a military medic. After 12 years single, I finally found my life companion." },
-        { "names": "Sisi & Doctor", "title": "Realtor & Doctor", "location": "Washington State", "story": "Sisi met her doctor husband in the US Midwest, now happily married in Washington. Her daughter also joined her and is now in college." },
-        { "names": "Nina & Teacher", "title": "Dance Teacher & Teacher", "location": "Palos Verdes, CA", "story": "I'm Nina, a former dance teacher from Beijing. Through International Love I met my teacher husband. Life gets better every day — we now live on the PV Hills." }
+        {
+          "id": "vera",
+          "title": "Vera & Mr. G — A love story with a Chase Bank engineer",
+          "images": ["/images/cases/case-01.jpg", "/images/cases/case-02.jpg"],
+          "paragraphs": [
+            "我叫 Vera，今年 45 岁来自福州。我是一个二宝妈也是一个普通的房产销售，曾经有过一段不幸的婚姻，带着两个女儿一起生活，非常坚辛和无助。上天给你关上一扇门总会给你开一扇窗，2023 年偶然的机会认识了跨国交友平台，经过深入了解，我觉得这是大龄宝妈改变命运的机会，于是我加入异国情缘的旅程。",
+            "在网上摸爬滚打了一段时间，我遇见了优秀的 G 先生。我的 G 先生今年 54 岁住在美国休斯顿，在大通银行做软件工程师。他温文儒雅、心地善良、稳重踏实、情绪稳定，对孩子有爱心，对我更是宠爱。每个中外的节日都是仪式感满满的，鲜花加礼物。",
+            "经过 10 个月的交流我们完全融入到对方的生活中，他带着给全家人的礼物和对我深深的爱恋跨越半个地球来实现我们的幸福约定。我们在家人和朋友的祝福下举行了结婚仪式。跨国婚姻让我收获了满满的爱情，改变了我的人生也改变了我两个孩子的命运。希望我的故事可以帮助到和我一样的姐妹，勇敢地寻找自己的爱和幸福。"
+          ]
+        },
+        {
+          "id": "furong",
+          "title": "Furong's happy love at 61 in Florida",
+          "images": ["/images/cases/case-03.jpg", "/images/cases/case-04.jpg"],
+          "paragraphs": [
+            "现 61 岁的芙蓉，于 2017 年离婚。本以为不会再婚，直到 2021 年 8 月在头条上看到程程的分享，对爱情和家庭的渴望又燃烧起来。果断加入学习的队伍，并且把学习和能力的提高放在第一位。",
+            "通过学习，掌握了沟通技巧，提升了经营爱情及家庭的能力。2022 年 6 月底来到美国，很快和现在的先生相遇，并于 2022 年 11 月初喜结良缘。2023 年 4 月初拿到绿卡，和先生幸福地生活在佛罗里达。",
+            "她说：我能重获爱情、温暖幸福的家庭，非常感恩程程的引路、鼓励和扶持。每当遇到困难想退缩时都得到了程程的安慰、鼓励和支持，直到现在办理各种事物还经常得到指导！"
+          ]
+        },
+        {
+          "id": "nurse",
+          "title": "The nurse and her motorcycle prince",
+          "images": ["/images/cases/case-05.jpg", "/images/cases/case-06.jpg"],
+          "paragraphs": [
+            "50 岁的年龄，很多人觉得这辈子就这么过了，拿着稳定的退休金、带着孙子，过着稳定又无趣的人生。我很不一样，我总是会跨越年龄的束缚，冲破时间对我的禁锢。",
+            "今年二月我怀揣梦想、充满希望来到了美国，用自己的高情商、高能量和智慧遇到了真命天子。他绅士、优秀、真诚。在见面三天后，他带我去圣地亚哥过生日；六周后，他决定带我去印第安纳州见他的家人。在他的家乡，我们经历了一次摩托车事故，患难与共，感觉彼此就是生命中最重要的那个人。",
+            "认识三个月时我们在印第安纳州订婚，得到了他家人的祝福。回到加州，他在我们第一次见面的地方向我求婚；我们去夏威夷度蜜月，圣诞节顺利结婚。这就是我浪漫神奇的爱情故事——机会永远是留给勇敢者，留给不放弃、有准备的人。"
+          ]
+        },
+        {
+          "id": "xiaolu",
+          "title": "Xiaolu's love story",
+          "images": ["/images/cases/case-07.jpg", "/images/cases/case-08.jpg"],
+          "paragraphs": [
+            "2020 年七月，我刷到了抖音上异国恋的主播程程姐，通过她了解了异国恋的相关知识。经过系统学习与层层筛选，2021 年 4 月在网络上认识了我先生，开启了我和他的缘分。",
+            "我们第一次视频后先生整晚没睡，第二天早晨就送来 99 朵玫瑰花。第三天我开玩笑地说如果你真的对我感兴趣，能不能在网络上向我求婚？他立刻在商店打来视频让我挑选了一克拉的钻戒，回家后就在网络上向我求婚——这一切让我感觉像做梦一样。",
+            "2021 年 8 月 22 号，我们在土耳其的机场第一次拥抱！从相识到见面整整四个月。度假归来，先生马上为我申请未婚妻签证。等待的过程很漫长，但我们的感情经受住了考验。现在我们幸福地定居在美国俄亥俄州。感谢先生的用心，也感谢自己学习之后的情绪稳定。"
+          ]
+        },
+        {
+          "id": "yufei",
+          "title": "Yufei's story",
+          "images": ["/images/cases/case-09.jpg", "/images/cases/case-10.jpg"],
+          "paragraphs": [
+            "我叫陈昱霏，来自湖南，是一个离异 7 年、带着两个女儿的单亲妈妈。2020 年，我无意间在抖音上面刷到程程姐，并关注了她。",
+            "我有过两段不幸的婚姻，对结婚失去了信心。经过我细心的观察，她的真诚打动了我。2022 年 8 月我终于按下了确认键，开始踏上寻爱之旅。每天认真学习、努力链接男士。",
+            "九月份我遇到了一位美国男士，对我真诚的关心让我开始有感觉，不到三个月我们确定了关系。因为疫情没法见面，但感情越来越好。开放后他来中国和我见面并结婚。我的先生非常善良，他很爱我的孩子，对我宠爱有加，从此我再也不是那个担当着一切的女汉子。亲爱的姐妹们，下一个接住幸福会是你哟！"
+          ]
+        },
+        {
+          "id": "english-teacher",
+          "title": "A university English teacher meets her American professor",
+          "images": ["/images/cases/case-11.jpg", "/images/cases/case-12.png"],
+          "paragraphs": [
+            "我曾是大学老师，单亲母亲 10 多年。孩子成人就业后，我成了空巢家长，也曾在国内寻寻觅觅多年，一直没有遇到我想要的那个心灵相通的人。2015 年我曾到美国做访问学者 2 年，对国外男士的礼仪修养、爱沟通等特点印象较深刻，所以萌生了跨国寻缘的想法。",
+            "机缘巧合遇到了 International Love Dating Club 的姐妹们，继而遇到了我现在的先生——大学教授、文学博士，和我同样钟爱英美文学。他人生阅历丰富、健谈幽默、细心体贴，认识半个月后就主动每天早晚打两次越洋视频电话。",
+            "5 个月后我们见面进一步加深了解，2 个月后认定对方就是我们要找的终身伴侣。于是辞掉工作再次来到美国，和他组成了甜蜜的二人世界。我们每天一起做饭、一起锻炼、一起旅行、一起读书、一起计划未来。祝愿每个渴望爱、渴望被爱的姐妹们都能获得终身幸福！"
+          ]
+        },
+        {
+          "id": "president-scientist",
+          "title": "A company president and a medical scientist",
+          "images": ["/images/cases/case-13.png", "/images/cases/case-14.png"],
+          "paragraphs": [
+            "51 岁的我来自美丽的山城重庆，是一位离婚 15 年的单亲妈妈。独立和坚强是我唯一的选择，真诚和善良是我做人的原则。",
+            "2022 年 3 月来到美国与先生邂逅，并坠入爱河。这一切都源于 International Love Dating Club 创始人程程和小玲的引领。同年 8 月我们告别了单身，一起步入了婚姻殿堂，现定居于亚利桑那州凤凰城。",
+            "感恩程程的付出，感恩我的教练小玲的耐心辅导。我的先生总是能够以一种成熟和理智的方式来处理我们生活中的各种问题，他说：『我能想到最美好的事情就是带你去看世界，体验生活中的美好。』如今的我们共同分享着家庭中的喜怒哀乐，携手度过每一个难忘的瞬间！"
+          ]
+        },
+        {
+          "id": "bridal-52",
+          "title": "She wore a wedding dress for the first time at 52",
+          "images": ["/images/cases/case-15.png", "/images/cases/case-16.jpg"],
+          "paragraphs": [
+            "她，来自中国深圳，是医美行业的精英女性。30 多年来她独自打拼，外表光鲜，内心却始终缺少一个可以依靠的肩膀。她曾一度以为自己的感情已经没有希望了——直到她遇见了 International Love Dating Club。",
+            "她很快认识了一位美国洛杉矶的成熟企业家，稳重、有担当，对爱情依旧充满热忱。他郑重地为她准备了两场婚礼：一场东方仪式（她身穿红色中式礼服、他身着唐装），一场西式婚礼（她披上洁白婚纱、他穿西装，在洛杉矶阳光下完成）。",
+            "他说：『你值得拥有一切美好，我要把你打造成最幸福的女人。』她眼中含泪，笑容却如此动人。她用了 30 年等一个人，他用了余生给她答案。"
+          ]
+        },
+        {
+          "id": "nanchang",
+          "title": "A single mother from Nanchang and her two-way commitment",
+          "images": ["/images/cases/case-17.jpg", "/images/cases/case-18.jpg"],
+          "paragraphs": [
+            "她来自江西南昌，是一位坚韧的单亲妈妈。为了女儿能拥有更好的人生，她一个人奋斗了十多年。她很少为自己想，也曾以为爱情已经和她无关。",
+            "直到她遇见了 International Love Dating Club。在我们的陪伴与专业服务下，她遇见了一位洛杉矶从事装饰工程的男士。他不是一个富豪，但他是一个真正愿意守护她的人。",
+            "他说的最多的一句话就是：『你挣的钱你自己支配，是你的；我挣的钱，是我们的。』这句简单的话，让她听了泪如雨下。婚礼那天，她身穿婚纱，恬静又美丽。亲爱的，如果你也曾一个人默默撑起生活，请相信你并不孤单。"
+          ]
+        },
+        {
+          "id": "jie",
+          "title": "An ordinary me met a US university teacher",
+          "images": ["/images/cases/case-19.jpg"],
+          "paragraphs": [
+            "我叫洁，是一名下岗工人，文化不高，在我这个年龄，在国内很难找到一份满意的工作。2021 年通过朋友的介绍认识了 International Love Dating Club。",
+            "非常感恩我的教练琳琳对我的帮助和耐心指导，她是我的贵人，让我遇到了如此优秀的男士、真心疼我爱我的另一半。他带我去了很多地方旅游！",
+            "我们第一次见面是在泰国，见面后我们就订婚了。后来他来中国，我们结婚了，我现在正在等配偶签证！"
+          ]
+        },
+        {
+          "id": "doctor-bridge",
+          "title": "A 35-year-old PhD and a bridge engineer in California",
+          "images": ["/images/cases/case-20.jpg"],
+          "paragraphs": [
+            "她是一位 35 岁的中国女性，拥有博士学位，专攻房屋设计。她事业独立、性格温柔，一直渴望能在情感上遇见真正契合的灵魂伴侣。",
+            "通过 International Love Dating Club 的专业引导与情感陪伴，她结识了来自美国的 38 岁桥梁工程师——一位稳重而有责任感的男士。",
+            "他们在一次次的深度交流中相互欣赏、彼此理解，从线上走到线下，再走进婚姻的殿堂。如今他们已在加州安家，过上『一屋两人两狗』的宁静生活——房子里充满爱，院子里有阳光和狗狗奔跑的身影。"
+          ]
+        },
+        {
+          "id": "vicky",
+          "title": "Hong Kong's Vicky finds new life in Texas",
+          "images": ["/images/cases/case-21.jpg", "/images/cases/case-22.jpg"],
+          "paragraphs": [
+            "香港的会员姐妹 Vicky，以前在香港做会计工作，在工作上独立自信，但在感情上一直没有遇到真正适合自己的灵魂伴侣。她刚刚加入的时候很迷茫，多次问：『琳琳教练，我能成功吗？』",
+            "幸运的齿轮总会在为自己按下幸福确认键的那一刻开始，在通过专业系统的学习提升和准备好自己时开始。",
+            "她现在已经结婚在德州，两个人生活的非常幸福！她的老公在德州有自己的房产中介公司，现在 Vicky 已经拿到绿卡，和她老公一起做房产中介生意！"
+          ]
+        },
+        {
+          "id": "susan",
+          "title": "Susan and her retired Philips executive",
+          "images": ["/images/cases/case-23.jpg", "/images/cases/case-24.jpg"],
+          "paragraphs": [
+            "会员月嫂姐妹 Susan，今年 63 岁，已经在美国做月嫂多年。在刚刚加入 International Love Dating Club 的时候，她很担心自己的英语不好，很难和西方男士沟通。",
+            "通过在俱乐部的学习，也经过她自己的努力，在琳琳教练的指导下，她找到了她现在的先生。",
+            "她的先生是 Philips 公司的高管退休，对妻子特别的宠爱和呵护。Susan 姐已经拿到绿卡，现在每个月享受着她老公退休工资的一半，两个人生活的非常幸福和快乐！"
+          ]
+        },
+        {
+          "id": "beijing-zhao",
+          "title": "Sister Zhao from Beijing — a green-card life in Texas",
+          "images": ["/images/cases/case-25.jpg", "/images/cases/case-26.jpg"],
+          "paragraphs": [
+            "北京的赵姐，今年 66 岁，她在北京做保险 30 多年，事业很成功。她很喜欢美国的环境、食物、空气和水，在生活中她很注重健康。",
+            "通过 International Love Dating Club 她终于实现了她的梦想。赵姐现在结婚在德州，已经拿到绿卡，每个月都在享受着先生的退休金。",
+            "她现在每天都去锻炼身体、练瑜伽。她说，回北京已经不习惯了，在美国心情开心、身体健康——健康是她拥有的最大的财富！"
+          ]
+        },
+        {
+          "id": "yueer",
+          "title": "Yue'er and her judge husband in Oregon",
+          "images": ["/images/cases/case-27.jpg", "/images/cases/case-28.jpg"],
+          "paragraphs": [
+            "月儿今年 53 岁，是一位非常智慧的女士，她的儿子在美国读研究生。月儿的性格开朗活泼，她与她的法官先生在旧金山第一次见面时就一见钟情——当缘分到来的时候挡都挡不住。",
+            "月儿和她的先生结婚在奥勒冈州，现在她已经拿到绿卡。",
+            "她的先生非常宠爱她，已经把她的名字加到房产上，把她的医疗保险都安排得很好，让她什么都不用担心，完全没有后顾之忧！"
+          ]
+        },
+        {
+          "id": "nana",
+          "title": "Nana's wise choice with two children",
+          "images": ["/images/cases/case-29.jpg", "/images/cases/case-30.jpg"],
+          "paragraphs": [
+            "娜娜，今年 40 岁，她有两个孩子（一个儿子、一个女儿）。在国内相亲，很多男士都嫌弃她带两个『拖油瓶』。",
+            "于是她毅然决然选择了 International Love Dating Club，她想带两个孩子来美国，给他们一个好的教育环境。一位智慧妈妈的选择，能改变三代人的命运——智慧的娜娜做到了。",
+            "她吸引到了一位从没结过婚的男士，现在她和她的先生结婚在田纳西州。她的老公非常宠爱她，对她的孩子像自己亲生孩子一样，还很感恩他的妻子，给他带来了两个不用换尿片的聪明孩子！"
+          ]
+        },
+        {
+          "id": "principal",
+          "title": "A former school principal's happiness in Los Angeles",
+          "images": ["/images/cases/case-31.png", "/images/cases/case-32.png"],
+          "paragraphs": [
+            "她 51 岁，曾是一位学校校长，离婚多年，独立坚强，却始终找不到那个真正懂她的人。在国内尝试了无数次相亲和交友，总是『高不成、低不就』，反而让她逐渐对爱情失去信心。",
+            "直到她遇见了 International Love。我们为她量身匹配了一位住在洛杉矶的企业主，一个真正珍惜她、欣赏她的男士。一个多月后，男士在温柔的烛光晚宴中单膝跪地向她求婚，那一刻他们都流下了幸福的泪水。",
+            "三个月后，我们亲自参加了她的婚礼，男士激动落泪，说出一句动人的话：『她是我一生的灵魂伴侣。』如今他们已经幸福生活多年。她常常对我们说：『遇到 International Love Dating Club，是我这一生最幸运的决定。』"
+          ]
+        },
+        {
+          "id": "huahua",
+          "title": "Huahua, 55, meets her mechanical engineer",
+          "images": ["/images/cases/case-33.png", "/images/cases/case-34.png"],
+          "paragraphs": [
+            "花花，55 岁，来自南京，是一位独具气质的服装搭配设计师。多年来，她独自抚养儿子长大，如今儿子已有了自己的生活，她也开始思考：『我的余生，应该属于怎样的幸福？』她说：『我不需要很多人爱我，我只想要那个真正懂我的人。』",
+            "International Love Dating Club 为她匹配了一位居住在洛杉矶的机械工程师——温和、真诚、有担当，欣赏她的美与坚持，也愿意倾听她的内心。他们在半年内结婚。从她第一次走进我们的办公室，到穿上婚纱的那一刻，我们一路陪伴。",
+            "她曾对我们说：『你们的耐心、责任心和爱心，让我很感动。我不是被服务，我是被真正陪伴。』婚后他们每个周末旅行，她笑着说：『在他身边，我第一次觉得我可以不用一个人扛所有事。』如今她还成为了我们团队的一员——继续用自己的故事和温度，帮助更多像她一样的姐妹找回爱的勇气。"
+          ]
+        },
+        {
+          "id": "qiuqiu",
+          "title": "Piano teacher Qiuqiu and a Los Angeles CEO",
+          "images": ["/images/cases/case-35.jpg", "/images/cases/case-36.jpg"],
+          "paragraphs": [
+            "优秀的钢琴老师秋秋是一位温婉优雅的女士。她在国内拥有好几家自己创办的钢琴培训中心，为了给两个孩子好的教育，她放弃了国内舒适的生活，出售了钢琴培训中心，带着两个孩子到了美国洛杉矶。",
+            "通过 International Love Dating Club，她和洛杉矶一家公司的 CEO 结婚了。她的先生很爱她和孩子们。",
+            "现在她和孩子刚刚拿到了绿卡。她很开心因为自己智慧的选择，拥有了快乐和睦的幸福家庭。"
+          ]
+        },
+        {
+          "id": "mumu",
+          "title": "Mumu and her sweet marriage to a farmer",
+          "images": ["/images/cases/case-37.jpg", "/images/cases/case-38.jpg"],
+          "paragraphs": [
+            "会员木木今年 45 岁，温柔漂亮，在国内经营一家大的餐厅，事业上非常成功，但是上一段婚姻对她的伤害很大，以至于让她一度不再相信爱情。",
+            "经过一位朋友的介绍，她和 International Love Dating Club 结缘。在教练的耐心辅导下，她对爱情再一次充满了希望。她加入俱乐部六个月，就成功吸引到了她现在的这位先生——他是农场主，把她宠得像女儿一样！",
+            "木木发自内心感恩朋友的介绍，感恩俱乐部的帮助，让她收获了甜蜜的爱情和婚姻！"
+          ]
+        }
       ]
     }
   }
