@@ -24,3 +24,9 @@ dist-ssr
 Thumbs.db
 
 .vercel
+
+# Browser automation artifacts (claude-in-chrome / playwright)
+.playwright-mcp/
+
+# Source docs (binary, 7.7MB — not needed for build)
+docs/resources.docx

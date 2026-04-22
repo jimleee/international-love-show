@@ -2,9 +2,7 @@ import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 import { Heart, MapPin } from "lucide-react";
 import PageHero from "@/components/PageHero";
-import MissionSection from "@/components/about/MissionSection";
-import VisionSection from "@/components/about/VisionSection";
-import ValuesSection from "@/components/about/ValuesSection";
+import PhilosophySection from "@/components/about/PhilosophySection";
 import FoundersSection from "@/components/about/FoundersSection";
 
 export default function About() {
@@ -76,9 +74,7 @@ export default function About() {
         </div>
       </section>
 
-      <MissionSection />
-      <VisionSection />
-      <ValuesSection />
+      <PhilosophySection />
       <FoundersSection />
     </>
   );
