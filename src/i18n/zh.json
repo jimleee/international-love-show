@@ -46,12 +46,12 @@
     "sixTeams": {
       "title": "六大专业团队 全程护航",
       "items": [
-        { "name": "红娘团队", "desc": "资深红娘人工撮合" },
-        { "name": "心理咨询团队", "desc": "情感与心理疏导" },
-        { "name": "形象设计团队", "desc": "形象与造型升级" },
-        { "name": "婚恋课程团队", "desc": "系统课程培训" },
-        { "name": "活动策划团队", "desc": "线下派对与约会策划" },
-        { "name": "客服管家团队", "desc": "全程贴心服务" }
+        { "name": "会员筛选团队", "nameEn": "Member Selection Team", "desc": "严审背景，确保会员真实性" },
+        { "name": "精准匹配团队", "nameEn": "Precision Matching Team", "desc": "深度访谈与择偶标准分析，实现双向甄选，严控品质" },
+        { "name": "情感陪跑团队", "nameEn": "Emotional Support Team", "desc": "全程陪跑恋爱过程中每一个节点" },
+        { "name": "形象蜕变团队", "nameEn": "Image & Confidence Team", "desc": "从穿搭到气场，从礼仪到表达，全面提升你的自信值" },
+        { "name": "婚姻推进团队", "nameEn": "Relationship Progression Team", "desc": "从见面、订婚、签证到登记结婚，协助推进感情落地，处理实务细节" },
+        { "name": "婚姻经营团队", "nameEn": "Marriage Enrichment Team", "desc": "婚姻不是终点，而是新的开始；陪你走入真实生活中的亲密关系" }
       ]
     },
     "courseSystem": {

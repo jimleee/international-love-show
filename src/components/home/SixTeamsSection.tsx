@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { Card, CardContent } from "@/components/ui/card";
 import { Users } from "lucide-react";
 
-type Team = { name: string; desc: string };
+type Team = { name: string; nameEn: string; desc: string };
 
 export default function SixTeamsSection() {
   const { t } = useTranslation();
@@ -10,7 +10,9 @@ export default function SixTeamsSection() {
 
   return (
     <section className="container mx-auto px-4 py-20">
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">{t("home.sixTeams.title")}</h2>
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+        {t("home.sixTeams.title")}
+      </h2>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {items.map((tm, i) => (
           <Card key={i}>
@@ -19,8 +21,11 @@ export default function SixTeamsSection() {
                 <Users className="text-primary" />
               </div>
               <div>
-                <h3 className="font-semibold text-lg mb-1">{tm.name}</h3>
-                <p className="text-sm text-foreground/70">{tm.desc}</p>
+                <h3 className="font-semibold text-lg leading-tight">{tm.name}</h3>
+                <div className="text-xs uppercase tracking-wider text-foreground/50 mt-0.5">
+                  {tm.nameEn}
+                </div>
+                <p className="text-sm text-foreground/70 mt-2 leading-relaxed">{tm.desc}</p>
               </div>
             </CardContent>
           </Card>
