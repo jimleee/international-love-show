@@ -55,17 +55,6 @@ export default function About() {
             ))}
           </div>
 
-          <div className="flex flex-col md:flex-row-reverse items-center gap-8 md:gap-12">
-            <div className="w-full md:w-1/2">
-              <div className="rounded-2xl overflow-hidden shadow-lg">
-                <img src="/images/home/consultants.jpg" alt="" className="w-full h-64 md:h-96 object-cover hover:scale-[1.02] transition-all duration-500" />
-              </div>
-            </div>
-            <div className="w-full md:w-1/2 space-y-5">
-              <h3 className="text-xl md:text-2xl font-semibold">{t("pages.about.story2Title")}</h3>
-              <p className="text-muted-foreground leading-relaxed">{t("pages.about.story2Body")}</p>
-            </div>
-          </div>
         </div>
       </section>
     </>
