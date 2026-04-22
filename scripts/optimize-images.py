@@ -17,7 +17,7 @@ def resize_inplace(p: Path, max_w: int) -> None:
     if img.width <= max_w:
         return
     ratio = max_w / img.width
-    img = img.resize((max_w, int(img.height * ratio)), Image.LANCZOS)
+    img = img.resize((max_w, int(img.height * ratio)), Image.Resampling.LANCZOS)
     if p.suffix.lower() == ".png":
         img.save(p, "PNG", optimize=True)
     else:
@@ -30,7 +30,7 @@ def opt_jpg(p: Path, max_w: int, q: int) -> None:
         img = img.convert("RGB")
     if img.width > max_w:
         ratio = max_w / img.width
-        img = img.resize((max_w, int(img.height * ratio)), Image.LANCZOS)
+        img = img.resize((max_w, int(img.height * ratio)), Image.Resampling.LANCZOS)
     img.save(p, "JPEG", quality=q, optimize=True, progressive=True)
 
 

@@ -259,9 +259,11 @@ git commit -m "feat(home/six-teams): use real bilingual team names from docx"
   { "stage": "破冰阶段", "desc": "认识自我与情感需求", "image": "/images/courses/course-1.jpg" },
   { "stage": "形象提升", "desc": "外形与谈吐的全面打磨", "image": "/images/courses/course-2.jpg" },
   { "stage": "约会实战", "desc": "高情商沟通与约会技巧", "image": "/images/courses/course-3.jpg" },
-  { "stage": "关系升温", "desc": "建立健康长久的亲密关系", "image": "/images/courses/course-4.jpg" }
+  { "stage": "关系升温", "desc": "建立健康长久的亲密关系", "image": "/images/courses/course-4.png" }
 ]
 ```
+
+注：`course-4.png` 是 PNG（其余 6 张课程图都是 jpg）。
 
 `src/i18n/en.json` 中同步（如果 en.json 已有 courseSystem.items 就改，否则按相同结构补）：
 
@@ -270,7 +272,7 @@ git commit -m "feat(home/six-teams): use real bilingual team names from docx"
   { "stage": "Ice-Breaking", "desc": "Self-awareness and emotional needs", "image": "/images/courses/course-1.jpg" },
   { "stage": "Image Upgrade", "desc": "Polishing your look and conversation", "image": "/images/courses/course-2.jpg" },
   { "stage": "Dating in Practice", "desc": "High-EQ communication and dating skills", "image": "/images/courses/course-3.jpg" },
-  { "stage": "Deepening the Bond", "desc": "Building a healthy, lasting relationship", "image": "/images/courses/course-4.jpg" }
+  { "stage": "Deepening the Bond", "desc": "Building a healthy, lasting relationship", "image": "/images/courses/course-4.png" }
 ]
 ```
 
@@ -1312,30 +1314,36 @@ git commit -m "feat(custom): real packages — 3 core + 4 premium with TierGroup
 
 20 个案例的图片归属（按 docx 顺序，每个分配 1–2 张：image20–image59 共 40 张，平均 2 张/案例）：
 
+**实际提取后的扩展名**：8 个 case 是 png，其余是 jpg。下表已用实际扩展名。Task 11 i18n 必须严格按此表写 `images` 数组。
+
 | # | id | 标题 | images |
 |---|---|---|---|
-| 1 | vera | 我和大通银行 G 先生的爱情故事 | case-01, case-02 |
-| 2 | furong | 佛罗里达 61 岁芙蓉姐的幸福爱情 | case-03, case-04 |
-| 3 | nurse | 护士和摩托车王子的浪漫爱情 | case-05, case-06 |
-| 4 | xiaolu | 小鹿的爱情故事 | case-07, case-08 |
-| 5 | yufei | 陈昱霏的故事 | case-09, case-10 |
-| 6 | english-teacher | 大学英语老师和美国教授的爱情 | case-11, case-12 |
-| 7 | president-scientist | 公司总裁和医学科学家的浪漫 | case-13, case-14 |
-| 8 | bridal-52 | 她 52 岁第一次穿上婚纱 | case-15, case-16 |
-| 9 | nanchang | 江西南昌的双向奔赴 | case-17, case-18 |
-| 10 | jie | 平凡的我遇到了美国的大学老师 | case-19 |
-| 11 | doctor-bridge | 35 岁博士与桥梁工程师 | case-20 |
-| 12 | vicky | 香港 Vicky 在德州的新生活 | case-21, case-22 |
-| 13 | susan | 月嫂 Susan 与 Philips 高管 | case-23, case-24 |
-| 14 | beijing-zhao | 北京赵姐的德州绿卡人生 | case-25, case-26 |
-| 15 | yueer | 月儿与法官先生 | case-27, case-28 |
-| 16 | nana | 娜娜带两个孩子的智慧选择 | case-29, case-30 |
-| 17 | principal | 51 岁前校长的洛杉矶幸福 | case-31, case-32 |
-| 18 | huahua | 花花 55 岁遇见机械工程师 | case-33, case-34 |
-| 19 | qiuqiu | 钢琴老师秋秋与 CEO | case-35, case-36 |
-| 20 | mumu | 木木与农场主的甜蜜婚姻 | case-37, case-38 |
+| 1 | vera | 我和大通银行 G 先生的爱情故事 | case-01.jpg, case-02.jpg |
+| 2 | furong | 佛罗里达 61 岁芙蓉姐的幸福爱情 | case-03.jpg, case-04.jpg |
+| 3 | nurse | 护士和摩托车王子的浪漫爱情 | case-05.jpg, case-06.jpg |
+| 4 | xiaolu | 小鹿的爱情故事 | case-07.jpg, case-08.jpg |
+| 5 | yufei | 陈昱霏的故事 | case-09.jpg, case-10.jpg |
+| 6 | english-teacher | 大学英语老师和美国教授的爱情 | case-11.jpg, **case-12.png** |
+| 7 | president-scientist | 公司总裁和医学科学家的浪漫 | **case-13.png**, **case-14.png** |
+| 8 | bridal-52 | 她 52 岁第一次穿上婚纱 | **case-15.png**, case-16.jpg |
+| 9 | nanchang | 江西南昌的双向奔赴 | case-17.jpg, case-18.jpg |
+| 10 | jie | 平凡的我遇到了美国的大学老师 | case-19.jpg |
+| 11 | doctor-bridge | 35 岁博士与桥梁工程师 | case-20.jpg |
+| 12 | vicky | 香港 Vicky 在德州的新生活 | case-21.jpg, case-22.jpg |
+| 13 | susan | 月嫂 Susan 与 Philips 高管 | case-23.jpg, case-24.jpg |
+| 14 | beijing-zhao | 北京赵姐的德州绿卡人生 | case-25.jpg, case-26.jpg |
+| 15 | yueer | 月儿与法官先生 | case-27.jpg, case-28.jpg |
+| 16 | nana | 娜娜带两个孩子的智慧选择 | case-29.jpg, case-30.jpg |
+| 17 | principal | 51 岁前校长的洛杉矶幸福 | **case-31.png**, **case-32.png** |
+| 18 | huahua | 花花 55 岁遇见机械工程师 | **case-33.png**, **case-34.png** |
+| 19 | qiuqiu | 钢琴老师秋秋与 CEO | case-35.jpg, case-36.jpg |
+| 20 | mumu | 木木与农场主的甜蜜婚姻 | case-37.jpg, case-38.jpg |
 
-剩余 case-39, case-40 暂留作备用图片，i18n 不引用。
+剩余 case-39.jpg, case-40.jpg 暂留作备用图片，i18n 不引用。
+
+**实际提取后的教练扩展名**：amy/duoer/vivian/xiaolu/xiaowei/yufei = .png；anne/grace/mia/vare = .jpg。Task 7 i18n 中的 image 字段必须按实际扩展名（在 plan 中已经使用正确扩展名，无需改动）。
+
+**实际提取后的课程扩展名**：course-1/2/3/5/6/7 = .jpg；**course-4 = .png**。Task 3 i18n 已用 .jpg，需要改 course-4 引用为 .png。
 
 - [ ] **Step 1: 重写 zh.json 中 `pages.successCases`**
 

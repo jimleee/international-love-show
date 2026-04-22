@@ -46,7 +46,7 @@ def save_optimized(data: bytes, ext: str, dest: Path) -> None:
         ratio = MAX_LONG_SIDE / max(img.size)
         img = img.resize(
             (int(img.width * ratio), int(img.height * ratio)),
-            Image.LANCZOS,
+            Image.Resampling.LANCZOS,
         )
     dest.parent.mkdir(parents=True, exist_ok=True)
     if ext == ".png":
