@@ -57,10 +57,10 @@
     "courseSystem": {
       "title": "Complete Course System",
       "items": [
-        { "stage": "Self-Discovery", "desc": "Understand yourself and your needs" },
-        { "stage": "Image Upgrade", "desc": "Refine appearance and presence" },
-        { "stage": "Dating Practice", "desc": "High-EQ communication & dating skills" },
-        { "stage": "Relationship Growth", "desc": "Build lasting healthy intimacy" }
+        { "stage": "Ice-Breaking", "desc": "Self-awareness and emotional needs", "image": "/images/courses/course-1.jpg" },
+        { "stage": "Image Upgrade", "desc": "Polishing your look and conversation", "image": "/images/courses/course-2.jpg" },
+        { "stage": "Dating in Practice", "desc": "High-EQ communication and dating skills", "image": "/images/courses/course-3.jpg" },
+        { "stage": "Deepening the Bond", "desc": "Building a healthy, lasting relationship", "image": "/images/courses/course-4.png" }
       ]
     },
     "teamShowcase": {
