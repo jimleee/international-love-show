@@ -120,7 +120,71 @@
         { "title": "Offline Meetings & Bonding", "desc": "We arrange in-person meetings to begin your real love story." }
       ],
       "coachTitle": "A Dedicated Consultant Who Walks With You",
-      "coachBody": "Every member is paired with a dedicated consultant who deeply understands your values, lifestyle, and emotional needs. We don't just make introductions — we walk with you the entire way."
+      "coachBody": "Every member is paired with a dedicated consultant who deeply understands your values, lifestyle, and emotional needs. We don't just make introductions — we walk with you the entire way.",
+      "coachesTitle": "Meet Your Coaches",
+      "coachesSubtitle": "A seasoned, cross-cultural coaching team walking the journey with you",
+      "coaches": [
+        {
+          "name": "Xiaowei",
+          "image": "/images/coaches/xiaowei.png",
+          "title": "One-on-one coaching consultation",
+          "body": "Family & relationship counselor · State-certified psychological counselor · Coaching-technique trainer. Rich international dating experience and a master of communication strategy. Are you ready to meet your future?"
+        },
+        {
+          "name": "Xiaolu",
+          "image": "/images/coaches/xiaolu.png",
+          "title": "Fast-track online dating coaching",
+          "body": "Married her husband through the internet in 2020 and now lives in Ohio, USA. Years of psychology research informs targeted, fast-track online dating coaching. Two things bring you closer to the life you want: make choices that fit you, and surround yourself with mentors and good friends."
+        },
+        {
+          "name": "Duo'er",
+          "image": "/images/coaches/duoer.png",
+          "title": "Cross-cultural relationship bridge",
+          "body": "Foreign-languages university background; studied human psychology at Yale. A bicultural anchor based in the US, equipped with the five wings of attraction, control, communication, repair, and mindset. Focused on cross-cultural relationship bridges and untangling international dating challenges. Hold the dream; fear not the distance."
+        },
+        {
+          "name": "Amy",
+          "image": "/images/coaches/amy.png",
+          "title": "Family & marriage counselor",
+          "body": "Family-education advisor · Harvard psychology certification (in progress) · second master's in literary psychotherapy (in progress) · dual master's in English language and literature. Nearly 30 years as a university lecturer, with tens of thousands of English-training talks and over a thousand family-education talks. Deep international-education background; fluent in cross-cultural communication. Husband is Italian-American; based in the US."
+        },
+        {
+          "name": "Yufei",
+          "image": "/images/coaches/yufei.png",
+          "title": "Hands-on international-dating coach",
+          "body": "Single mother for ten years; began her cross-cultural dating journey in October 2022 and married her American husband in China in 2023. Sincerely shares her successful online international-dating playbook — how to communicate, connect, and live with Western men. Focus on health, women's wellness, and healing of marital relationships."
+        },
+        {
+          "name": "Vivian",
+          "image": "/images/coaches/vivian.png",
+          "title": "Picking quality men in cross-cultural marriage",
+          "body": "Four years of online dating; through study became a woman of high EQ, high IQ, and high energy, and married her husband on Christmas 2023. In a global village, luck in love comes more from your courage, awareness, and capability. You are the first person responsible for your own life — expand the search radius and you can write your own love story. Theory plus practice; based in Los Angeles."
+        },
+        {
+          "name": "Vare",
+          "image": "/images/coaches/vare.jpg",
+          "title": "Cross-cultural marriage & parenting coach",
+          "body": "Once a single mother of two; cross-cultural marriage rewrote her family's trajectory. Brings a distinctive perspective and method to online dating and international marriage, plus expertise in mending parent–child relationships. Don't look for reasons to fail — look for ways to succeed."
+        },
+        {
+          "name": "Grace",
+          "image": "/images/coaches/grace.jpg",
+          "title": "Veteran international-dating coach",
+          "body": "Cross-cultural love opened another door for me. Years of accumulated experience in online international dating. I embrace those who need help with love and warmth. Use your limited time to create unlimited beauty."
+        },
+        {
+          "name": "Anne",
+          "image": "/images/coaches/anne.jpg",
+          "title": "EQ & love-quotient growth coach",
+          "body": "Single mother of two with countless dating experiences; understands the importance of EQ and love-quotient. Graduate of South China Normal University in human psychology; rich international-dating experience; certified health manager. Shares everything she has lived and practiced with sisters. Don't look for reasons to fail — look for ways to succeed."
+        },
+        {
+          "name": "Mia",
+          "image": "/images/coaches/mia.jpg",
+          "title": "One-on-one coaching consultation",
+          "body": "Ten years in the US, with rich international-dating experience. Has already helped many sisters begin a happy life abroad."
+        }
+      ]
     },
     "custom": {
       "title": "Custom Matchmaking",
