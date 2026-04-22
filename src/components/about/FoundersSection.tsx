@@ -26,6 +26,7 @@ export default function FoundersSection() {
                     src={f.image}
                     alt={f.name}
                     className="w-full h-[420px] object-cover"
+                    loading="lazy"
                   />
                 </div>
               </div>

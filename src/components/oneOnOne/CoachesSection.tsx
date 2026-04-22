@@ -26,6 +26,7 @@ export default function CoachesSection() {
                   src={c.image}
                   alt={c.name}
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
               <div className="p-5 space-y-2">
