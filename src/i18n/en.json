@@ -97,6 +97,11 @@
           "name": "Anna",
           "image": "/images/founders/anna.png",
           "body": "Among countless faces, there is one woman of singular charm — Ms. Anna Jiang, co-founder of International Love Dating Club. In 2017, through diligent study of online dating skills, she attracted a wonderful gentleman from the United States. In 2018, they married in Los Angeles and began a beautiful life together. Gentle, kind, and grounded, Anna combines high emotional intelligence with deep wisdom. In 2019 she created our distinctive one-on-one high-end private-bespoke service. Her work is rooted in love and gratitude — helping more women find their own happiness, guiding them to understand Western culture and emotional needs of partners, and attracting the soulmates they have been hoping for."
+        },
+        {
+          "name": "Paul (Mr. Wan Zhuo)",
+          "image": "/images/founders/paul.png",
+          "body": "Mr. Wan Zhuo (English name Paul) is the founder of the Dandelion Overseas Alliance and of Hong Kong Silk Road Flower Rain Co., and a highly experienced overseas immigration specialist. He has guided more than 200 families through successful immigration. With deep familiarity in the immigration policies of many countries, he tailors the most suitable and effective plan for each family based on their specific conditions and needs."
         }
       ]
     },
@@ -388,7 +393,7 @@
         {
           "id": "jie",
           "title": "An ordinary me met a US university teacher",
-          "images": ["/images/cases/case-19.jpg"],
+          "images": ["/images/cases/case-19.jpg", "/images/cases/case-20.jpg"],
           "paragraphs": [
             "我叫洁，是一名下岗工人，文化不高，在我这个年龄，在国内很难找到一份满意的工作。2021 年通过朋友的介绍认识了 International Love Dating Club。",
             "非常感恩我的教练琳琳对我的帮助和耐心指导，她是我的贵人，让我遇到了如此优秀的男士、真心疼我爱我的另一半。他带我去了很多地方旅游！",
@@ -398,7 +403,7 @@
         {
           "id": "doctor-bridge",
           "title": "A 35-year-old PhD and a bridge engineer in California",
-          "images": ["/images/cases/case-20.jpg"],
+          "images": ["/images/cases/case-21.jpg", "/images/cases/case-22.jpg"],
           "paragraphs": [
             "她是一位 35 岁的中国女性，拥有博士学位，专攻房屋设计。她事业独立、性格温柔，一直渴望能在情感上遇见真正契合的灵魂伴侣。",
             "通过 International Love Dating Club 的专业引导与情感陪伴，她结识了来自美国的 38 岁桥梁工程师——一位稳重而有责任感的男士。",
@@ -408,7 +413,7 @@
         {
           "id": "vicky",
           "title": "Hong Kong's Vicky finds new life in Texas",
-          "images": ["/images/cases/case-21.jpg", "/images/cases/case-22.jpg"],
+          "images": ["/images/cases/case-23.jpg", "/images/cases/case-24.jpg"],
           "paragraphs": [
             "香港的会员姐妹 Vicky，以前在香港做会计工作，在工作上独立自信，但在感情上一直没有遇到真正适合自己的灵魂伴侣。她刚刚加入的时候很迷茫，多次问：『琳琳教练，我能成功吗？』",
             "幸运的齿轮总会在为自己按下幸福确认键的那一刻开始，在通过专业系统的学习提升和准备好自己时开始。",
@@ -418,7 +423,7 @@
         {
           "id": "susan",
           "title": "Susan and her retired Philips executive",
-          "images": ["/images/cases/case-23.jpg", "/images/cases/case-24.jpg"],
+          "images": ["/images/cases/case-25.jpg", "/images/cases/case-26.jpg"],
           "paragraphs": [
             "会员月嫂姐妹 Susan，今年 63 岁，已经在美国做月嫂多年。在刚刚加入 International Love Dating Club 的时候，她很担心自己的英语不好，很难和西方男士沟通。",
             "通过在俱乐部的学习，也经过她自己的努力，在琳琳教练的指导下，她找到了她现在的先生。",
@@ -428,7 +433,7 @@
         {
           "id": "beijing-zhao",
           "title": "Sister Zhao from Beijing — a green-card life in Texas",
-          "images": ["/images/cases/case-25.jpg", "/images/cases/case-26.jpg"],
+          "images": ["/images/cases/case-27.jpg", "/images/cases/case-28.jpg"],
           "paragraphs": [
             "北京的赵姐，今年 66 岁，她在北京做保险 30 多年，事业很成功。她很喜欢美国的环境、食物、空气和水，在生活中她很注重健康。",
             "通过 International Love Dating Club 她终于实现了她的梦想。赵姐现在结婚在德州，已经拿到绿卡，每个月都在享受着先生的退休金。",
@@ -438,7 +443,7 @@
         {
           "id": "yueer",
           "title": "Yue'er and her judge husband in Oregon",
-          "images": ["/images/cases/case-27.jpg", "/images/cases/case-28.jpg"],
+          "images": ["/images/cases/case-29.jpg", "/images/cases/case-30.jpg"],
           "paragraphs": [
             "月儿今年 53 岁，是一位非常智慧的女士，她的儿子在美国读研究生。月儿的性格开朗活泼，她与她的法官先生在旧金山第一次见面时就一见钟情——当缘分到来的时候挡都挡不住。",
             "月儿和她的先生结婚在奥勒冈州，现在她已经拿到绿卡。",
@@ -448,7 +453,7 @@
         {
           "id": "nana",
           "title": "Nana's wise choice with two children",
-          "images": ["/images/cases/case-29.jpg", "/images/cases/case-30.jpg"],
+          "images": ["/images/cases/case-31.png", "/images/cases/case-32.png"],
           "paragraphs": [
             "娜娜，今年 40 岁，她有两个孩子（一个儿子、一个女儿）。在国内相亲，很多男士都嫌弃她带两个『拖油瓶』。",
             "于是她毅然决然选择了 International Love Dating Club，她想带两个孩子来美国，给他们一个好的教育环境。一位智慧妈妈的选择，能改变三代人的命运——智慧的娜娜做到了。",
@@ -458,7 +463,7 @@
         {
           "id": "principal",
           "title": "A former school principal's happiness in Los Angeles",
-          "images": ["/images/cases/case-31.png", "/images/cases/case-32.png"],
+          "images": ["/images/cases/case-33.png", "/images/cases/case-34.png"],
           "paragraphs": [
             "她 51 岁，曾是一位学校校长，离婚多年，独立坚强，却始终找不到那个真正懂她的人。在国内尝试了无数次相亲和交友，总是『高不成、低不就』，反而让她逐渐对爱情失去信心。",
             "直到她遇见了 International Love。我们为她量身匹配了一位住在洛杉矶的企业主，一个真正珍惜她、欣赏她的男士。一个多月后，男士在温柔的烛光晚宴中单膝跪地向她求婚，那一刻他们都流下了幸福的泪水。",
@@ -468,7 +473,7 @@
         {
           "id": "huahua",
           "title": "Huahua, 55, meets her mechanical engineer",
-          "images": ["/images/cases/case-33.png", "/images/cases/case-34.png"],
+          "images": ["/images/cases/case-35.jpg", "/images/cases/case-36.jpg"],
           "paragraphs": [
             "花花，55 岁，来自南京，是一位独具气质的服装搭配设计师。多年来，她独自抚养儿子长大，如今儿子已有了自己的生活，她也开始思考：『我的余生，应该属于怎样的幸福？』她说：『我不需要很多人爱我，我只想要那个真正懂我的人。』",
             "International Love Dating Club 为她匹配了一位居住在洛杉矶的机械工程师——温和、真诚、有担当，欣赏她的美与坚持，也愿意倾听她的内心。他们在半年内结婚。从她第一次走进我们的办公室，到穿上婚纱的那一刻，我们一路陪伴。",
@@ -478,7 +483,7 @@
         {
           "id": "qiuqiu",
           "title": "Piano teacher Qiuqiu and a Los Angeles CEO",
-          "images": ["/images/cases/case-35.jpg", "/images/cases/case-36.jpg"],
+          "images": ["/images/cases/case-37.jpg", "/images/cases/case-38.jpg"],
           "paragraphs": [
             "优秀的钢琴老师秋秋是一位温婉优雅的女士。她在国内拥有好几家自己创办的钢琴培训中心，为了给两个孩子好的教育，她放弃了国内舒适的生活，出售了钢琴培训中心，带着两个孩子到了美国洛杉矶。",
             "通过 International Love Dating Club，她和洛杉矶一家公司的 CEO 结婚了。她的先生很爱她和孩子们。",
@@ -488,7 +493,7 @@
         {
           "id": "mumu",
           "title": "Mumu and her sweet marriage to a farmer",
-          "images": ["/images/cases/case-37.jpg", "/images/cases/case-38.jpg"],
+          "images": ["/images/cases/case-39.jpg", "/images/cases/case-40.jpg"],
           "paragraphs": [
             "会员木木今年 45 岁，温柔漂亮，在国内经营一家大的餐厅，事业上非常成功，但是上一段婚姻对她的伤害很大，以至于让她一度不再相信爱情。",
             "经过一位朋友的介绍，她和 International Love Dating Club 结缘。在教练的耐心辅导下，她对爱情再一次充满了希望。她加入俱乐部六个月，就成功吸引到了她现在的这位先生——他是农场主，把她宠得像女儿一样！",

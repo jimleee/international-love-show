@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const SLIDES = Array.from({ length: 8 }, (_, i) => ({
+const SLIDES = Array.from({ length: 7 }, (_, i) => ({
   src: `/images/carousel/slide-${i + 1}.jpg`,
 }));
 
