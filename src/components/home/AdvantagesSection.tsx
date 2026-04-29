@@ -11,7 +11,15 @@ export default function AdvantagesSection() {
   return (
     <section className="bg-muted/30 py-20 px-4">
       <div className="container mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">{t("home.advantages.title")}</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">{t("home.advantages.title")}</h2>
+        <div className="max-w-5xl mx-auto mb-12 overflow-hidden rounded-2xl shadow-lg aspect-[16/9]">
+          <img
+            src="/images/home/advantages.jpg"
+            alt=""
+            loading="lazy"
+            className="w-full h-full object-cover"
+          />
+        </div>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {items.map((it, i) => (
             <Card key={i} className="text-center">

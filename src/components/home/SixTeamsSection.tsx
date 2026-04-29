@@ -10,9 +10,17 @@ export default function SixTeamsSection() {
 
   return (
     <section className="container mx-auto px-4 py-20">
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
         {t("home.sixTeams.title")}
       </h2>
+      <div className="max-w-5xl mx-auto mb-12 overflow-hidden rounded-2xl shadow-lg aspect-[16/9]">
+        <img
+          src="/images/home/six-teams.jpg"
+          alt=""
+          loading="lazy"
+          className="w-full h-full object-cover"
+        />
+      </div>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {items.map((tm, i) => (
           <Card key={i}>
