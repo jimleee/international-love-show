@@ -13,9 +13,10 @@ type Props = {
   subtitle?: string;
   tiers: Tier[];
   variant?: "basic" | "premium";
+  image?: string;
 };
 
-export default function TierGroup({ title, subtitle, tiers, variant = "basic" }: Props) {
+export default function TierGroup({ title, subtitle, tiers, variant = "basic", image }: Props) {
   const isPremium = variant === "premium";
   const cols = tiers.length === 4 ? "lg:grid-cols-4" : "lg:grid-cols-3";
 
@@ -28,6 +29,16 @@ export default function TierGroup({ title, subtitle, tiers, variant = "basic" }:
             <p className={isPremium ? "text-white/60" : "text-foreground/60"}>{subtitle}</p>
           )}
         </div>
+        {image && (
+          <div className={`mb-10 md:mb-12 max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-lg ${isPremium ? "ring-1 ring-white/10" : ""}`}>
+            <img
+              src={image}
+              alt={title}
+              loading="lazy"
+              className="w-full h-56 md:h-72 object-cover"
+            />
+          </div>
+        )}
         <div className={`grid gap-6 sm:grid-cols-2 ${cols}`}>
           {tiers.map((t, i) => (
             <div

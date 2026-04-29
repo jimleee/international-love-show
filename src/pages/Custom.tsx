@@ -33,6 +33,7 @@ export default function Custom() {
         title={t("pages.custom.basicTitle")}
         tiers={basic}
         variant="basic"
+        image="/images/custom/basic.jpg"
       />
 
       <TierGroup
@@ -40,6 +41,7 @@ export default function Custom() {
         subtitle={t("pages.custom.premiumSubtitle") as string}
         tiers={premium}
         variant="premium"
+        image="/images/custom/premium.jpg"
       />
     </>
   );

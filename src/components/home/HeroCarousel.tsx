@@ -4,6 +4,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const SLIDES = Array.from({ length: 7 }, (_, i) => ({
   src: `/images/carousel/slide-${i + 1}.jpg`,
+  mobileSrc: `/images/carousel/mobile/slide-${i + 1}.png`,
 }));
 
 export default function HeroCarousel() {
@@ -28,7 +29,10 @@ export default function HeroCarousel() {
         <div className="flex h-full">
           {SLIDES.map((s, i) => (
             <div key={i} className="relative flex-[0_0_100%] h-full">
-              <img src={s.src} alt="" className="w-full h-full object-cover" />
+              <picture className="block w-full h-full">
+                <source media="(max-width: 767px)" srcSet={s.mobileSrc} />
+                <img src={s.src} alt="" className="w-full h-full object-cover" />
+              </picture>
             </div>
           ))}
         </div>
