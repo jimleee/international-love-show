@@ -25,7 +25,7 @@ export default function Party() {
       <PageHero
         title={t("pages.party.title")}
         subtitle={t("pages.party.subtitle")}
-        image="/images/party/5.jpg"
+        image="/images/nav/party.jpg"
       />
 
       <section className="container mx-auto px-4 py-16 max-w-3xl text-center">

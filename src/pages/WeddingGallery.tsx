@@ -40,7 +40,7 @@ export default function WeddingGallery() {
       <PageHero
         title={t("pages.weddingGallery.title")}
         subtitle={t("pages.weddingGallery.subtitle")}
-        image="/images/stories/3.jpg"
+        image="/images/nav/wedding-gallery.jpg"
       />
 
       <section className="container mx-auto px-4 py-16 max-w-3xl text-center">

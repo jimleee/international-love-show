@@ -24,7 +24,7 @@ export default function SuccessCases() {
       <PageHero
         title={t("pages.successCases.title")}
         subtitle={t("pages.successCases.subtitle")}
-        image="/images/stories/3.jpg"
+        image="/images/nav/success-cases.jpg"
       />
 
       <section className="py-12 px-4">
