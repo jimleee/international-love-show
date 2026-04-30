@@ -2,10 +2,12 @@ import { useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
+// 手机端：把品牌海报（原 mobile slide-6）放第一张，其余按原序排列，末尾再以海报收尾
+const MOBILE_ORDER = [6, 1, 2, 3, 4, 5, 6];
+
 const SLIDES = Array.from({ length: 7 }, (_, i) => ({
   src: `/images/carousel/slide-${i + 1}.jpg`,
-  // 倒数第二张手机端复用第一张
-  mobileSrc: `/images/carousel/mobile/slide-${i === 5 ? 1 : i + 1}.png`,
+  mobileSrc: `/images/carousel/mobile/slide-${MOBILE_ORDER[i]}.png`,
 }));
 
 export default function HeroCarousel() {
