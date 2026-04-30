@@ -4,7 +4,8 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const SLIDES = Array.from({ length: 7 }, (_, i) => ({
   src: `/images/carousel/slide-${i + 1}.jpg`,
-  mobileSrc: `/images/carousel/mobile/slide-${i + 1}.png`,
+  // 倒数第二张手机端复用第一张
+  mobileSrc: `/images/carousel/mobile/slide-${i === 5 ? 1 : i + 1}.png`,
 }));
 
 export default function HeroCarousel() {
@@ -59,12 +60,13 @@ export default function HeroCarousel() {
         {/* Animated scroll-down arrow */}
         <button
           onClick={() => window.scrollTo({ top: window.innerHeight, behavior: "smooth" })}
-          className="text-white/60 hover:text-white transition-colors animate-bounce"
+          className="text-white/60 hover:text-white transition-colors animate-bounce flex flex-col items-center gap-1"
           aria-label="scroll down"
         >
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
             <polyline points="6 9 12 15 18 9" />
           </svg>
+          <span className="text-xs tracking-[0.2em]">向下滑动</span>
         </button>
         {/* Indicator dots */}
         <div className="flex gap-2">
