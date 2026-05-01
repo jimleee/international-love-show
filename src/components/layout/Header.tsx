@@ -1,14 +1,11 @@
 import { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 export default function Header() {
   const { i18n } = useTranslation();
-  const { pathname } = useLocation();
   const [scrolled, setScrolled] = useState(false);
 
-  // All pages open with a hero image at top, so header starts transparent
-  // and turns solid once the user scrolls past the fold.
   const transparent = !scrolled;
 
   useEffect(() => {
@@ -17,12 +14,6 @@ export default function Header() {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
-
-  // Reset scroll to top when switching routes so each page opens in its
-  // transparent-header, hero-centric state.
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
 
   const toggleLang = () => i18n.changeLanguage(i18n.language.startsWith("zh") ? "en" : "zh");
   const isZh = i18n.language.startsWith("zh");

@@ -22,7 +22,7 @@ export default function OneOnOne() {
       <PageHero
         title={t("pages.oneOnOne.title")}
         subtitle={t("pages.oneOnOne.subtitle")}
-        image="/images/carousel/slide-2.jpg"
+        image="/images/home/one-on-one-hero.png"
       />
 
       <section className="container mx-auto px-4 py-16 max-w-3xl text-center">

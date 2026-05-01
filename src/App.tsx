@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
+import ScrollManager from "./components/layout/ScrollManager";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import OneOnOne from "./pages/OneOnOne";
@@ -12,6 +13,7 @@ import SuccessCases from "./pages/SuccessCases";
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col">
+      <ScrollManager />
       <Header />
       <main className="flex-1">
         <Routes>
