@@ -1,10 +1,10 @@
 import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
-import { UserPlus, ShieldCheck, MessageCircle, Sparkles, Send, Heart } from "lucide-react";
+import { ShieldCheck, MessageCircle, Sparkles, Send, Heart } from "lucide-react";
 import PageHero from "@/components/PageHero";
 import CoachesSection from "@/components/oneOnOne/CoachesSection";
 
-const ICONS = [UserPlus, ShieldCheck, MessageCircle, Sparkles, Send, Heart];
+const ICONS = [ShieldCheck, MessageCircle, Sparkles, Send, Heart];
 
 type Step = { title: string; desc: string };
 

@@ -17,7 +17,6 @@ const PHOTOS = [
   "9ef92e513e3f111fcd20a1d6f2da6531.jpg",
   "b12b1fe38b3c7704ab892b03cc1a15ea.jpg",
   "b4a5d3e0f8dd78aac218e275b6fe8c2a.jpg",
-  "cfd56b140f77fd1c6c443566c87569f2.jpg",
   "d4a009d2000707af68ea4a7cb5fc5428.jpg",
   "d8dad012454eba586088c7a7107161e5.jpg",
   "df126b2d47516d96c92cb80c1d509b0d.jpg",
