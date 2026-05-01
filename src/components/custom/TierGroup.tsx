@@ -23,12 +23,14 @@ export default function TierGroup({ title, subtitle, tiers, variant = "basic", i
   return (
     <section className={`py-20 px-4 ${isPremium ? "bg-gradient-to-b from-[#1a1a2a] to-[#0f0f1a] text-white" : ""}`}>
       <div className="container mx-auto max-w-7xl">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-3">{title}</h2>
-          {subtitle && (
-            <p className={isPremium ? "text-white/60" : "text-foreground/60"}>{subtitle}</p>
-          )}
-        </div>
+        {title && (
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-3">{title}</h2>
+            {subtitle && (
+              <p className={isPremium ? "text-white/60" : "text-foreground/60"}>{subtitle}</p>
+            )}
+          </div>
+        )}
         {image && (
           <div className={`mb-10 md:mb-12 max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-lg ${isPremium ? "ring-1 ring-white/10" : ""}`}>
             <img
